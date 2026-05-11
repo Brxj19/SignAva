@@ -1,0 +1,14 @@
+{
+  "input_text": "about",
+  "matched_gloss": "about",
+  "gloss_id": 2,
+  "checkpoint_path": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints/best_model.pth",
+  "output_shape": [
+    60,
+    182
+  ],
+  "denormalized": true,
+  "device": "cuda",
+  "demo_motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/generated/about_smplx.npy",
+  "demo_video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/videos/about_animation.mp4"
+}

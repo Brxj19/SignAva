@@ -1,0 +1,14 @@
+{
+  "input_text": "always",
+  "matched_gloss": "always",
+  "gloss_id": 8,
+  "checkpoint_path": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints/best_model.pth",
+  "output_shape": [
+    60,
+    182
+  ],
+  "denormalized": true,
+  "device": "cuda",
+  "demo_motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/generated/always_smplx.npy",
+  "demo_video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/videos/always_animation.mp4"
+}

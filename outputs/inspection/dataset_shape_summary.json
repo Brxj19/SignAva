@@ -1,0 +1,1406 @@
+{
+  "total_pkl_files": 1000,
+  "successfully_scanned": 1000,
+  "failed_files": 0,
+  "unique_smplx_shapes_count": 126,
+  "most_common_smplx_shapes": [
+    [
+      "(55, 182)",
+      37
+    ],
+    [
+      "(58, 182)",
+      24
+    ],
+    [
+      "(53, 182)",
+      22
+    ],
+    [
+      "(63, 182)",
+      22
+    ],
+    [
+      "(56, 182)",
+      20
+    ],
+    [
+      "(68, 182)",
+      19
+    ],
+    [
+      "(74, 182)",
+      18
+    ],
+    [
+      "(41, 182)",
+      18
+    ],
+    [
+      "(32, 182)",
+      17
+    ],
+    [
+      "(77, 182)",
+      17
+    ],
+    [
+      "(46, 182)",
+      17
+    ],
+    [
+      "(43, 182)",
+      17
+    ],
+    [
+      "(75, 182)",
+      16
+    ],
+    [
+      "(37, 182)",
+      16
+    ],
+    [
+      "(34, 182)",
+      16
+    ],
+    [
+      "(38, 182)",
+      16
+    ],
+    [
+      "(28, 182)",
+      15
+    ],
+    [
+      "(31, 182)",
+      15
+    ],
+    [
+      "(48, 182)",
+      15
+    ],
+    [
+      "(52, 182)",
+      14
+    ]
+  ],
+  "motion_dim_distribution": [
+    [
+      182,
+      1000
+    ]
+  ],
+  "sequence_length_stats": {
+    "min": 3,
+    "max": 195,
+    "mean": 61.319000244140625,
+    "median": 58.0,
+    "std": 26.0582275390625,
+    "p10": 30.899999618530273,
+    "p25": 41.0,
+    "p75": 77.0,
+    "p90": 95.0
+  },
+  "duration_at_20fps_stats_sec": {
+    "min": 0.15000000596046448,
+    "max": 9.75,
+    "mean": 3.0659499168395996,
+    "median": 2.9000000953674316
+  },
+  "key_frequency": [
+    [
+      "left_valid",
+      1000
+    ],
+    [
+      "right_valid",
+      1000
+    ],
+    [
+      "total_valid_index",
+      1000
+    ],
+    [
+      "2d",
+      1000
+    ],
+    [
+      "pred_2d",
+      1000
+    ],
+    [
+      "smplx",
+      1000
+    ],
+    [
+      "unsmooth_smplx",
+      1000
+    ],
+    [
+      "bb2img_trans",
+      1000
+    ],
+    [
+      "focal",
+      1000
+    ],
+    [
+      "princpt",
+      1000
+    ]
+  ],
+  "sample_key_shapes": {
+    "left_valid": "(21,)",
+    "right_valid": "(21,)",
+    "total_valid_index": "(21,)",
+    "2d": "(21, 106, 3)",
+    "pred_2d": "(21, 106, 2)",
+    "smplx": "(21, 182)",
+    "unsmooth_smplx": "(21, 169)",
+    "bb2img_trans": "(21, 2, 3)",
+    "focal": "(21, 2)",
+    "princpt": "(21, 2)"
+  },
+  "gloss_count": 124,
+  "top_glosses_by_sample_count": [
+    [
+      "accident",
+      17
+    ],
+    [
+      "africa",
+      15
+    ],
+    [
+      "all",
+      15
+    ],
+    [
+      "approve",
+      15
+    ],
+    [
+      "argue",
+      13
+    ],
+    [
+      "again",
+      12
+    ],
+    [
+      "ago",
+      12
+    ],
+    [
+      "always",
+      12
+    ],
+    [
+      "arrive",
+      12
+    ],
+    [
+      "about",
+      11
+    ],
+    [
+      "apple",
+      11
+    ],
+    [
+      "across",
+      10
+    ],
+    [
+      "after",
+      10
+    ],
+    [
+      "age",
+      10
+    ],
+    [
+      "alone",
+      10
+    ],
+    [
+      "already",
+      10
+    ],
+    [
+      "analyze",
+      10
+    ],
+    [
+      "angel",
+      10
+    ],
+    [
+      "animal",
+      10
+    ],
+    [
+      "answer",
+      10
+    ],
+    [
+      "area",
+      10
+    ],
+    [
+      "attitude",
+      10
+    ],
+    [
+      "australia",
+      10
+    ],
+    [
+      "accept",
+      9
+    ],
+    [
+      "adult",
+      9
+    ],
+    [
+      "afternoon",
+      9
+    ],
+    [
+      "airplane",
+      9
+    ],
+    [
+      "also",
+      9
+    ],
+    [
+      "america",
+      9
+    ],
+    [
+      "and",
+      9
+    ]
+  ],
+  "per_gloss_stats": [
+    {
+      "gloss": "a",
+      "num_samples": 7,
+      "min_T": 21,
+      "max_T": 106,
+      "mean_T": 55.71428680419922,
+      "median_T": 52.0,
+      "mean_duration_at_20fps_sec": 2.7857143878936768
+    },
+    {
+      "gloss": "a lot",
+      "num_samples": 7,
+      "min_T": 26,
+      "max_T": 81,
+      "mean_T": 53.71428680419922,
+      "median_T": 46.0,
+      "mean_duration_at_20fps_sec": 2.6857142448425293
+    },
+    {
+      "gloss": "abdomen",
+      "num_samples": 8,
+      "min_T": 25,
+      "max_T": 71,
+      "mean_T": 53.125,
+      "median_T": 54.0,
+      "mean_duration_at_20fps_sec": 2.65625
+    },
+    {
+      "gloss": "able",
+      "num_samples": 7,
+      "min_T": 32,
+      "max_T": 75,
+      "mean_T": 54.28571319580078,
+      "median_T": 56.0,
+      "mean_duration_at_20fps_sec": 2.7142856121063232
+    },
+    {
+      "gloss": "about",
+      "num_samples": 11,
+      "min_T": 29,
+      "max_T": 98,
+      "mean_T": 57.0,
+      "median_T": 55.0,
+      "mean_duration_at_20fps_sec": 2.8499999046325684
+    },
+    {
+      "gloss": "above",
+      "num_samples": 7,
+      "min_T": 15,
+      "max_T": 103,
+      "mean_T": 64.28571319580078,
+      "median_T": 68.0,
+      "mean_duration_at_20fps_sec": 3.2142856121063232
+    },
+    {
+      "gloss": "accent",
+      "num_samples": 6,
+      "min_T": 27,
+      "max_T": 37,
+      "mean_T": 33.5,
+      "median_T": 33.5,
+      "mean_duration_at_20fps_sec": 1.6749999523162842
+    },
+    {
+      "gloss": "accept",
+      "num_samples": 9,
+      "min_T": 26,
+      "max_T": 125,
+      "mean_T": 56.0,
+      "median_T": 46.0,
+      "mean_duration_at_20fps_sec": 2.799999952316284
+    },
+    {
+      "gloss": "accident",
+      "num_samples": 17,
+      "min_T": 12,
+      "max_T": 104,
+      "mean_T": 56.70588302612305,
+      "median_T": 51.0,
+      "mean_duration_at_20fps_sec": 2.835294246673584
+    },
+    {
+      "gloss": "accomplish",
+      "num_samples": 7,
+      "min_T": 28,
+      "max_T": 117,
+      "mean_T": 61.14285659790039,
+      "median_T": 44.0,
+      "mean_duration_at_20fps_sec": 3.057142734527588
+    },
+    {
+      "gloss": "accountant",
+      "num_samples": 5,
+      "min_T": 50,
+      "max_T": 111,
+      "mean_T": 78.5999984741211,
+      "median_T": 75.0,
+      "mean_duration_at_20fps_sec": 3.929999828338623
+    },
+    {
+      "gloss": "across",
+      "num_samples": 10,
+      "min_T": 18,
+      "max_T": 76,
+      "mean_T": 53.79999923706055,
+      "median_T": 55.0,
+      "mean_duration_at_20fps_sec": 2.690000057220459
+    },
+    {
+      "gloss": "act",
+      "num_samples": 5,
+      "min_T": 35,
+      "max_T": 96,
+      "mean_T": 68.19999694824219,
+      "median_T": 70.0,
+      "mean_duration_at_20fps_sec": 3.4099998474121094
+    },
+    {
+      "gloss": "action",
+      "num_samples": 6,
+      "min_T": 42,
+      "max_T": 91,
+      "mean_T": 69.83333587646484,
+      "median_T": 73.0,
+      "mean_duration_at_20fps_sec": 3.491666793823242
+    },
+    {
+      "gloss": "active",
+      "num_samples": 8,
+      "min_T": 18,
+      "max_T": 102,
+      "mean_T": 62.5,
+      "median_T": 63.0,
+      "mean_duration_at_20fps_sec": 3.125
+    },
+    {
+      "gloss": "activity",
+      "num_samples": 6,
+      "min_T": 33,
+      "max_T": 91,
+      "mean_T": 55.83333206176758,
+      "median_T": 55.0,
+      "mean_duration_at_20fps_sec": 2.7916665077209473
+    },
+    {
+      "gloss": "actor",
+      "num_samples": 7,
+      "min_T": 48,
+      "max_T": 95,
+      "mean_T": 68.57142639160156,
+      "median_T": 69.0,
+      "mean_duration_at_20fps_sec": 3.4285712242126465
+    },
+    {
+      "gloss": "adapt",
+      "num_samples": 7,
+      "min_T": 30,
+      "max_T": 139,
+      "mean_T": 77.42857360839844,
+      "median_T": 68.0,
+      "mean_duration_at_20fps_sec": 3.8714287281036377
+    },
+    {
+      "gloss": "add",
+      "num_samples": 8,
+      "min_T": 24,
+      "max_T": 101,
+      "mean_T": 56.75,
+      "median_T": 47.5,
+      "mean_duration_at_20fps_sec": 2.8375000953674316
+    },
+    {
+      "gloss": "address",
+      "num_samples": 7,
+      "min_T": 36,
+      "max_T": 77,
+      "mean_T": 56.85714340209961,
+      "median_T": 58.0,
+      "mean_duration_at_20fps_sec": 2.8428571224212646
+    },
+    {
+      "gloss": "adjective",
+      "num_samples": 6,
+      "min_T": 35,
+      "max_T": 152,
+      "mean_T": 73.66666412353516,
+      "median_T": 65.0,
+      "mean_duration_at_20fps_sec": 3.683333158493042
+    },
+    {
+      "gloss": "adjust",
+      "num_samples": 6,
+      "min_T": 44,
+      "max_T": 87,
+      "mean_T": 67.5,
+      "median_T": 69.0,
+      "mean_duration_at_20fps_sec": 3.375
+    },
+    {
+      "gloss": "admire",
+      "num_samples": 6,
+      "min_T": 31,
+      "max_T": 117,
+      "mean_T": 74.16666412353516,
+      "median_T": 81.0,
+      "mean_duration_at_20fps_sec": 3.7083332538604736
+    },
+    {
+      "gloss": "admit",
+      "num_samples": 6,
+      "min_T": 33,
+      "max_T": 117,
+      "mean_T": 64.5,
+      "median_T": 63.0,
+      "mean_duration_at_20fps_sec": 3.2249999046325684
+    },
+    {
+      "gloss": "adopt",
+      "num_samples": 7,
+      "min_T": 26,
+      "max_T": 89,
+      "mean_T": 50.42856979370117,
+      "median_T": 34.0,
+      "mean_duration_at_20fps_sec": 2.5214285850524902
+    },
+    {
+      "gloss": "adult",
+      "num_samples": 9,
+      "min_T": 31,
+      "max_T": 103,
+      "mean_T": 58.0,
+      "median_T": 45.0,
+      "mean_duration_at_20fps_sec": 2.9000000953674316
+    },
+    {
+      "gloss": "advanced",
+      "num_samples": 7,
+      "min_T": 23,
+      "max_T": 107,
+      "mean_T": 57.42856979370117,
+      "median_T": 52.0,
+      "mean_duration_at_20fps_sec": 2.8714284896850586
+    },
+    {
+      "gloss": "advantage",
+      "num_samples": 7,
+      "min_T": 28,
+      "max_T": 106,
+      "mean_T": 57.28571319580078,
+      "median_T": 48.0,
+      "mean_duration_at_20fps_sec": 2.864285707473755
+    },
+    {
+      "gloss": "adverb",
+      "num_samples": 7,
+      "min_T": 37,
+      "max_T": 128,
+      "mean_T": 74.42857360839844,
+      "median_T": 71.0,
+      "mean_duration_at_20fps_sec": 3.721428632736206
+    },
+    {
+      "gloss": "affect",
+      "num_samples": 7,
+      "min_T": 30,
+      "max_T": 126,
+      "mean_T": 73.0,
+      "median_T": 63.0,
+      "mean_duration_at_20fps_sec": 3.6500000953674316
+    },
+    {
+      "gloss": "afraid",
+      "num_samples": 8,
+      "min_T": 18,
+      "max_T": 84,
+      "mean_T": 51.5,
+      "median_T": 56.0,
+      "mean_duration_at_20fps_sec": 2.575000047683716
+    },
+    {
+      "gloss": "africa",
+      "num_samples": 15,
+      "min_T": 36,
+      "max_T": 124,
+      "mean_T": 64.86666870117188,
+      "median_T": 61.0,
+      "mean_duration_at_20fps_sec": 3.243333339691162
+    },
+    {
+      "gloss": "after",
+      "num_samples": 10,
+      "min_T": 3,
+      "max_T": 106,
+      "mean_T": 54.900001525878906,
+      "median_T": 60.0,
+      "mean_duration_at_20fps_sec": 2.745000123977661
+    },
+    {
+      "gloss": "afternoon",
+      "num_samples": 9,
+      "min_T": 5,
+      "max_T": 106,
+      "mean_T": 59.66666793823242,
+      "median_T": 65.0,
+      "mean_duration_at_20fps_sec": 2.9833333492279053
+    },
+    {
+      "gloss": "again",
+      "num_samples": 12,
+      "min_T": 35,
+      "max_T": 89,
+      "mean_T": 64.91666412353516,
+      "median_T": 68.0,
+      "mean_duration_at_20fps_sec": 3.245833158493042
+    },
+    {
+      "gloss": "against",
+      "num_samples": 7,
+      "min_T": 38,
+      "max_T": 94,
+      "mean_T": 64.14286041259766,
+      "median_T": 56.0,
+      "mean_duration_at_20fps_sec": 3.2071430683135986
+    },
+    {
+      "gloss": "age",
+      "num_samples": 10,
+      "min_T": 28,
+      "max_T": 74,
+      "mean_T": 46.79999923706055,
+      "median_T": 44.0,
+      "mean_duration_at_20fps_sec": 2.3399999141693115
+    },
+    {
+      "gloss": "agenda",
+      "num_samples": 7,
+      "min_T": 37,
+      "max_T": 81,
+      "mean_T": 56.71428680419922,
+      "median_T": 59.0,
+      "mean_duration_at_20fps_sec": 2.835714340209961
+    },
+    {
+      "gloss": "ago",
+      "num_samples": 12,
+      "min_T": 25,
+      "max_T": 83,
+      "mean_T": 46.75,
+      "median_T": 44.0,
+      "mean_duration_at_20fps_sec": 2.3375000953674316
+    },
+    {
+      "gloss": "agree",
+      "num_samples": 8,
+      "min_T": 32,
+      "max_T": 103,
+      "mean_T": 60.125,
+      "median_T": 56.5,
+      "mean_duration_at_20fps_sec": 3.0062499046325684
+    },
+    {
+      "gloss": "agreement",
+      "num_samples": 5,
+      "min_T": 37,
+      "max_T": 95,
+      "mean_T": 59.400001525878906,
+      "median_T": 58.0,
+      "mean_duration_at_20fps_sec": 2.9700000286102295
+    },
+    {
+      "gloss": "ahead",
+      "num_samples": 8,
+      "min_T": 43,
+      "max_T": 100,
+      "mean_T": 63.75,
+      "median_T": 58.0,
+      "mean_duration_at_20fps_sec": 3.1875
+    },
+    {
+      "gloss": "aid",
+      "num_samples": 7,
+      "min_T": 27,
+      "max_T": 95,
+      "mean_T": 58.42856979370117,
+      "median_T": 58.0,
+      "mean_duration_at_20fps_sec": 2.9214284420013428
+    },
+    {
+      "gloss": "aim",
+      "num_samples": 8,
+      "min_T": 35,
+      "max_T": 114,
+      "mean_T": 69.25,
+      "median_T": 62.0,
+      "mean_duration_at_20fps_sec": 3.4625000953674316
+    },
+    {
+      "gloss": "airplane",
+      "num_samples": 9,
+      "min_T": 23,
+      "max_T": 98,
+      "mean_T": 60.33333206176758,
+      "median_T": 52.0,
+      "mean_duration_at_20fps_sec": 3.0166666507720947
+    },
+    {
+      "gloss": "alarm",
+      "num_samples": 8,
+      "min_T": 30,
+      "max_T": 84,
+      "mean_T": 59.25,
+      "median_T": 60.0,
+      "mean_duration_at_20fps_sec": 2.9625000953674316
+    },
+    {
+      "gloss": "alcohol",
+      "num_samples": 8,
+      "min_T": 26,
+      "max_T": 104,
+      "mean_T": 64.0,
+      "median_T": 66.0,
+      "mean_duration_at_20fps_sec": 3.200000047683716
+    },
+    {
+      "gloss": "algebra",
+      "num_samples": 7,
+      "min_T": 19,
+      "max_T": 116,
+      "mean_T": 53.42856979370117,
+      "median_T": 43.0,
+      "mean_duration_at_20fps_sec": 2.6714284420013428
+    },
+    {
+      "gloss": "all",
+      "num_samples": 15,
+      "min_T": 25,
+      "max_T": 121,
+      "mean_T": 62.66666793823242,
+      "median_T": 62.0,
+      "mean_duration_at_20fps_sec": 3.133333444595337
+    },
+    {
+      "gloss": "all day",
+      "num_samples": 6,
+      "min_T": 8,
+      "max_T": 74,
+      "mean_T": 43.0,
+      "median_T": 39.5,
+      "mean_duration_at_20fps_sec": 2.1500000953674316
+    },
+    {
+      "gloss": "allergy",
+      "num_samples": 8,
+      "min_T": 38,
+      "max_T": 119,
+      "mean_T": 68.875,
+      "median_T": 60.0,
+      "mean_duration_at_20fps_sec": 3.4437499046325684
+    },
+    {
+      "gloss": "alligator",
+      "num_samples": 7,
+      "min_T": 31,
+      "max_T": 106,
+      "mean_T": 67.28571319580078,
+      "median_T": 73.0,
+      "mean_duration_at_20fps_sec": 3.364285707473755
+    },
+    {
+      "gloss": "allow",
+      "num_samples": 8,
+      "min_T": 34,
+      "max_T": 79,
+      "mean_T": 61.0,
+      "median_T": 62.0,
+      "mean_duration_at_20fps_sec": 3.049999952316284
+    },
+    {
+      "gloss": "almost",
+      "num_samples": 8,
+      "min_T": 12,
+      "max_T": 94,
+      "mean_T": 61.75,
+      "median_T": 62.0,
+      "mean_duration_at_20fps_sec": 3.0875000953674316
+    },
+    {
+      "gloss": "alone",
+      "num_samples": 10,
+      "min_T": 40,
+      "max_T": 99,
+      "mean_T": 64.69999694824219,
+      "median_T": 62.0,
+      "mean_duration_at_20fps_sec": 3.234999895095825
+    },
+    {
+      "gloss": "alphabet",
+      "num_samples": 7,
+      "min_T": 21,
+      "max_T": 113,
+      "mean_T": 62.57143020629883,
+      "median_T": 65.0,
+      "mean_duration_at_20fps_sec": 3.1285715103149414
+    },
+    {
+      "gloss": "already",
+      "num_samples": 10,
+      "min_T": 26,
+      "max_T": 92,
+      "mean_T": 56.20000076293945,
+      "median_T": 48.5,
+      "mean_duration_at_20fps_sec": 2.809999942779541
+    },
+    {
+      "gloss": "also",
+      "num_samples": 9,
+      "min_T": 27,
+      "max_T": 96,
+      "mean_T": 56.66666793823242,
+      "median_T": 60.0,
+      "mean_duration_at_20fps_sec": 2.8333334922790527
+    },
+    {
+      "gloss": "always",
+      "num_samples": 12,
+      "min_T": 54,
+      "max_T": 95,
+      "mean_T": 72.66666412353516,
+      "median_T": 69.5,
+      "mean_duration_at_20fps_sec": 3.633333206176758
+    },
+    {
+      "gloss": "amazing",
+      "num_samples": 5,
+      "min_T": 26,
+      "max_T": 83,
+      "mean_T": 52.0,
+      "median_T": 53.0,
+      "mean_duration_at_20fps_sec": 2.5999999046325684
+    },
+    {
+      "gloss": "america",
+      "num_samples": 9,
+      "min_T": 26,
+      "max_T": 174,
+      "mean_T": 78.66666412353516,
+      "median_T": 67.0,
+      "mean_duration_at_20fps_sec": 3.933333158493042
+    },
+    {
+      "gloss": "amputate",
+      "num_samples": 6,
+      "min_T": 18,
+      "max_T": 141,
+      "mean_T": 57.33333206176758,
+      "median_T": 41.0,
+      "mean_duration_at_20fps_sec": 2.866666555404663
+    },
+    {
+      "gloss": "analyze",
+      "num_samples": 10,
+      "min_T": 34,
+      "max_T": 96,
+      "mean_T": 68.9000015258789,
+      "median_T": 73.0,
+      "mean_duration_at_20fps_sec": 3.445000171661377
+    },
+    {
+      "gloss": "anatomy",
+      "num_samples": 7,
+      "min_T": 62,
+      "max_T": 99,
+      "mean_T": 79.14286041259766,
+      "median_T": 78.0,
+      "mean_duration_at_20fps_sec": 3.9571430683135986
+    },
+    {
+      "gloss": "and",
+      "num_samples": 9,
+      "min_T": 37,
+      "max_T": 84,
+      "mean_T": 60.33333206176758,
+      "median_T": 62.0,
+      "mean_duration_at_20fps_sec": 3.0166666507720947
+    },
+    {
+      "gloss": "angel",
+      "num_samples": 10,
+      "min_T": 24,
+      "max_T": 72,
+      "mean_T": 50.29999923706055,
+      "median_T": 51.5,
+      "mean_duration_at_20fps_sec": 2.5149998664855957
+    },
+    {
+      "gloss": "angle",
+      "num_samples": 6,
+      "min_T": 38,
+      "max_T": 64,
+      "mean_T": 51.0,
+      "median_T": 48.5,
+      "mean_duration_at_20fps_sec": 2.549999952316284
+    },
+    {
+      "gloss": "angry",
+      "num_samples": 8,
+      "min_T": 27,
+      "max_T": 88,
+      "mean_T": 54.875,
+      "median_T": 51.5,
+      "mean_duration_at_20fps_sec": 2.7437500953674316
+    },
+    {
+      "gloss": "animal",
+      "num_samples": 10,
+      "min_T": 47,
+      "max_T": 131,
+      "mean_T": 75.69999694824219,
+      "median_T": 72.0,
+      "mean_duration_at_20fps_sec": 3.7849998474121094
+    },
+    {
+      "gloss": "anniversary",
+      "num_samples": 9,
+      "min_T": 23,
+      "max_T": 98,
+      "mean_T": 58.55555725097656,
+      "median_T": 58.0,
+      "mean_duration_at_20fps_sec": 2.9277777671813965
+    },
+    {
+      "gloss": "announce",
+      "num_samples": 8,
+      "min_T": 33,
+      "max_T": 98,
+      "mean_T": 66.375,
+      "median_T": 65.5,
+      "mean_duration_at_20fps_sec": 3.3187499046325684
+    },
+    {
+      "gloss": "annoy",
+      "num_samples": 6,
+      "min_T": 37,
+      "max_T": 114,
+      "mean_T": 71.0,
+      "median_T": 67.5,
+      "mean_duration_at_20fps_sec": 3.549999952316284
+    },
+    {
+      "gloss": "another",
+      "num_samples": 9,
+      "min_T": 32,
+      "max_T": 83,
+      "mean_T": 54.0,
+      "median_T": 55.0,
+      "mean_duration_at_20fps_sec": 2.700000047683716
+    },
+    {
+      "gloss": "answer",
+      "num_samples": 10,
+      "min_T": 13,
+      "max_T": 107,
+      "mean_T": 57.900001525878906,
+      "median_T": 56.5,
+      "mean_duration_at_20fps_sec": 2.8949999809265137
+    },
+    {
+      "gloss": "any",
+      "num_samples": 8,
+      "min_T": 24,
+      "max_T": 68,
+      "mean_T": 58.0,
+      "median_T": 64.0,
+      "mean_duration_at_20fps_sec": 2.9000000953674316
+    },
+    {
+      "gloss": "anyway",
+      "num_samples": 7,
+      "min_T": 28,
+      "max_T": 89,
+      "mean_T": 56.28571319580078,
+      "median_T": 47.0,
+      "mean_duration_at_20fps_sec": 2.8142857551574707
+    },
+    {
+      "gloss": "apart",
+      "num_samples": 7,
+      "min_T": 22,
+      "max_T": 92,
+      "mean_T": 58.42856979370117,
+      "median_T": 63.0,
+      "mean_duration_at_20fps_sec": 2.9214284420013428
+    },
+    {
+      "gloss": "apartment",
+      "num_samples": 9,
+      "min_T": 23,
+      "max_T": 122,
+      "mean_T": 65.22222137451172,
+      "median_T": 59.0,
+      "mean_duration_at_20fps_sec": 3.26111102104187
+    },
+    {
+      "gloss": "apostrophe",
+      "num_samples": 6,
+      "min_T": 28,
+      "max_T": 114,
+      "mean_T": 50.83333206176758,
+      "median_T": 41.0,
+      "mean_duration_at_20fps_sec": 2.5416665077209473
+    },
+    {
+      "gloss": "appear",
+      "num_samples": 9,
+      "min_T": 15,
+      "max_T": 108,
+      "mean_T": 57.44444274902344,
+      "median_T": 62.0,
+      "mean_duration_at_20fps_sec": 2.8722221851348877
+    },
+    {
+      "gloss": "appetite",
+      "num_samples": 8,
+      "min_T": 26,
+      "max_T": 131,
+      "mean_T": 71.375,
+      "median_T": 58.5,
+      "mean_duration_at_20fps_sec": 3.5687499046325684
+    },
+    {
+      "gloss": "apple",
+      "num_samples": 11,
+      "min_T": 8,
+      "max_T": 108,
+      "mean_T": 62.90909194946289,
+      "median_T": 64.0,
+      "mean_duration_at_20fps_sec": 3.1454546451568604
+    },
+    {
+      "gloss": "appointment",
+      "num_samples": 9,
+      "min_T": 35,
+      "max_T": 182,
+      "mean_T": 85.11111450195312,
+      "median_T": 81.0,
+      "mean_duration_at_20fps_sec": 4.255555629730225
+    },
+    {
+      "gloss": "appreciate",
+      "num_samples": 8,
+      "min_T": 21,
+      "max_T": 122,
+      "mean_T": 67.125,
+      "median_T": 65.0,
+      "mean_duration_at_20fps_sec": 3.356250047683716
+    },
+    {
+      "gloss": "approach",
+      "num_samples": 4,
+      "min_T": 4,
+      "max_T": 105,
+      "mean_T": 51.0,
+      "median_T": 47.5,
+      "mean_duration_at_20fps_sec": 2.549999952316284
+    },
+    {
+      "gloss": "appropriate",
+      "num_samples": 9,
+      "min_T": 23,
+      "max_T": 96,
+      "mean_T": 59.66666793823242,
+      "median_T": 60.0,
+      "mean_duration_at_20fps_sec": 2.9833333492279053
+    },
+    {
+      "gloss": "approve",
+      "num_samples": 15,
+      "min_T": 20,
+      "max_T": 141,
+      "mean_T": 66.4000015258789,
+      "median_T": 63.0,
+      "mean_duration_at_20fps_sec": 3.320000171661377
+    },
+    {
+      "gloss": "april",
+      "num_samples": 8,
+      "min_T": 50,
+      "max_T": 195,
+      "mean_T": 87.0,
+      "median_T": 63.5,
+      "mean_duration_at_20fps_sec": 4.349999904632568
+    },
+    {
+      "gloss": "archery",
+      "num_samples": 8,
+      "min_T": 29,
+      "max_T": 85,
+      "mean_T": 55.375,
+      "median_T": 54.0,
+      "mean_duration_at_20fps_sec": 2.768749952316284
+    },
+    {
+      "gloss": "area",
+      "num_samples": 10,
+      "min_T": 25,
+      "max_T": 94,
+      "mean_T": 62.79999923706055,
+      "median_T": 68.5,
+      "mean_duration_at_20fps_sec": 3.1399998664855957
+    },
+    {
+      "gloss": "argue",
+      "num_samples": 13,
+      "min_T": 34,
+      "max_T": 101,
+      "mean_T": 61.846153259277344,
+      "median_T": 65.0,
+      "mean_duration_at_20fps_sec": 3.0923075675964355
+    },
+    {
+      "gloss": "arizona",
+      "num_samples": 5,
+      "min_T": 37,
+      "max_T": 77,
+      "mean_T": 54.79999923706055,
+      "median_T": 52.0,
+      "mean_duration_at_20fps_sec": 2.740000009536743
+    },
+    {
+      "gloss": "arm",
+      "num_samples": 8,
+      "min_T": 31,
+      "max_T": 96,
+      "mean_T": 57.5,
+      "median_T": 53.0,
+      "mean_duration_at_20fps_sec": 2.875
+    },
+    {
+      "gloss": "army",
+      "num_samples": 8,
+      "min_T": 27,
+      "max_T": 89,
+      "mean_T": 61.5,
+      "median_T": 64.5,
+      "mean_duration_at_20fps_sec": 3.075000047683716
+    },
+    {
+      "gloss": "around",
+      "num_samples": 7,
+      "min_T": 45,
+      "max_T": 96,
+      "mean_T": 71.0,
+      "median_T": 58.0,
+      "mean_duration_at_20fps_sec": 3.549999952316284
+    },
+    {
+      "gloss": "arrest",
+      "num_samples": 9,
+      "min_T": 21,
+      "max_T": 74,
+      "mean_T": 38.88888931274414,
+      "median_T": 32.0,
+      "mean_duration_at_20fps_sec": 1.9444444179534912
+    },
+    {
+      "gloss": "arrive",
+      "num_samples": 12,
+      "min_T": 22,
+      "max_T": 108,
+      "mean_T": 62.41666793823242,
+      "median_T": 61.0,
+      "mean_duration_at_20fps_sec": 3.120833396911621
+    },
+    {
+      "gloss": "arrogant",
+      "num_samples": 8,
+      "min_T": 18,
+      "max_T": 119,
+      "mean_T": 70.375,
+      "median_T": 75.0,
+      "mean_duration_at_20fps_sec": 3.518749952316284
+    },
+    {
+      "gloss": "art",
+      "num_samples": 9,
+      "min_T": 33,
+      "max_T": 107,
+      "mean_T": 63.44444274902344,
+      "median_T": 55.0,
+      "mean_duration_at_20fps_sec": 3.172222137451172
+    },
+    {
+      "gloss": "article",
+      "num_samples": 7,
+      "min_T": 14,
+      "max_T": 167,
+      "mean_T": 69.0,
+      "median_T": 55.0,
+      "mean_duration_at_20fps_sec": 3.450000047683716
+    },
+    {
+      "gloss": "artist",
+      "num_samples": 8,
+      "min_T": 39,
+      "max_T": 100,
+      "mean_T": 71.25,
+      "median_T": 72.5,
+      "mean_duration_at_20fps_sec": 3.5625
+    },
+    {
+      "gloss": "asia",
+      "num_samples": 8,
+      "min_T": 39,
+      "max_T": 98,
+      "mean_T": 61.625,
+      "median_T": 60.5,
+      "mean_duration_at_20fps_sec": 3.081249952316284
+    },
+    {
+      "gloss": "ask",
+      "num_samples": 9,
+      "min_T": 27,
+      "max_T": 83,
+      "mean_T": 42.11111068725586,
+      "median_T": 37.0,
+      "mean_duration_at_20fps_sec": 2.105555534362793
+    },
+    {
+      "gloss": "asl",
+      "num_samples": 8,
+      "min_T": 32,
+      "max_T": 85,
+      "mean_T": 60.0,
+      "median_T": 62.5,
+      "mean_duration_at_20fps_sec": 3.0
+    },
+    {
+      "gloss": "assist",
+      "num_samples": 6,
+      "min_T": 27,
+      "max_T": 66,
+      "mean_T": 51.16666793823242,
+      "median_T": 53.5,
+      "mean_duration_at_20fps_sec": 2.558333396911621
+    },
+    {
+      "gloss": "assistant",
+      "num_samples": 8,
+      "min_T": 34,
+      "max_T": 102,
+      "mean_T": 61.5,
+      "median_T": 56.5,
+      "mean_duration_at_20fps_sec": 3.075000047683716
+    },
+    {
+      "gloss": "assume",
+      "num_samples": 6,
+      "min_T": 28,
+      "max_T": 133,
+      "mean_T": 66.0,
+      "median_T": 65.0,
+      "mean_duration_at_20fps_sec": 3.299999952316284
+    },
+    {
+      "gloss": "attend",
+      "num_samples": 6,
+      "min_T": 39,
+      "max_T": 89,
+      "mean_T": 58.66666793823242,
+      "median_T": 51.5,
+      "mean_duration_at_20fps_sec": 2.933333396911621
+    },
+    {
+      "gloss": "attention",
+      "num_samples": 8,
+      "min_T": 33,
+      "max_T": 97,
+      "mean_T": 61.25,
+      "median_T": 48.5,
+      "mean_duration_at_20fps_sec": 3.0625
+    },
+    {
+      "gloss": "attitude",
+      "num_samples": 10,
+      "min_T": 8,
+      "max_T": 91,
+      "mean_T": 55.099998474121094,
+      "median_T": 52.5,
+      "mean_duration_at_20fps_sec": 2.754999876022339
+    },
+    {
+      "gloss": "attorney",
+      "num_samples": 7,
+      "min_T": 46,
+      "max_T": 101,
+      "mean_T": 70.85713958740234,
+      "median_T": 63.0,
+      "mean_duration_at_20fps_sec": 3.5428569316864014
+    },
+    {
+      "gloss": "attract",
+      "num_samples": 8,
+      "min_T": 31,
+      "max_T": 85,
+      "mean_T": 54.0,
+      "median_T": 50.5,
+      "mean_duration_at_20fps_sec": 2.700000047683716
+    },
+    {
+      "gloss": "auction",
+      "num_samples": 7,
+      "min_T": 48,
+      "max_T": 138,
+      "mean_T": 72.28571319580078,
+      "median_T": 60.0,
+      "mean_duration_at_20fps_sec": 3.614285707473755
+    },
+    {
+      "gloss": "audience",
+      "num_samples": 9,
+      "min_T": 25,
+      "max_T": 112,
+      "mean_T": 48.66666793823242,
+      "median_T": 30.0,
+      "mean_duration_at_20fps_sec": 2.433333396911621
+    },
+    {
+      "gloss": "audiologist",
+      "num_samples": 6,
+      "min_T": 58,
+      "max_T": 113,
+      "mean_T": 80.5,
+      "median_T": 74.0,
+      "mean_duration_at_20fps_sec": 4.025000095367432
+    },
+    {
+      "gloss": "audiology",
+      "num_samples": 5,
+      "min_T": 53,
+      "max_T": 77,
+      "mean_T": 62.0,
+      "median_T": 58.0,
+      "mean_duration_at_20fps_sec": 3.0999999046325684
+    },
+    {
+      "gloss": "august",
+      "num_samples": 6,
+      "min_T": 46,
+      "max_T": 123,
+      "mean_T": 70.0,
+      "median_T": 66.0,
+      "mean_duration_at_20fps_sec": 3.5
+    },
+    {
+      "gloss": "aunt",
+      "num_samples": 9,
+      "min_T": 46,
+      "max_T": 96,
+      "mean_T": 68.22222137451172,
+      "median_T": 65.0,
+      "mean_duration_at_20fps_sec": 3.4111111164093018
+    },
+    {
+      "gloss": "australia",
+      "num_samples": 10,
+      "min_T": 27,
+      "max_T": 98,
+      "mean_T": 53.70000076293945,
+      "median_T": 52.0,
+      "mean_duration_at_20fps_sec": 2.684999942779541
+    },
+    {
+      "gloss": "austria",
+      "num_samples": 4,
+      "min_T": 35,
+      "max_T": 110,
+      "mean_T": 63.75,
+      "median_T": 55.0,
+      "mean_duration_at_20fps_sec": 3.1875
+    },
+    {
+      "gloss": "author",
+      "num_samples": 7,
+      "min_T": 41,
+      "max_T": 113,
+      "mean_T": 71.28571319580078,
+      "median_T": 65.0,
+      "mean_duration_at_20fps_sec": 3.5642857551574707
+    },
+    {
+      "gloss": "authority",
+      "num_samples": 7,
+      "min_T": 29,
+      "max_T": 77,
+      "mean_T": 53.71428680419922,
+      "median_T": 43.0,
+      "mean_duration_at_20fps_sec": 2.6857142448425293
+    },
+    {
+      "gloss": "autumn",
+      "num_samples": 8,
+      "min_T": 21,
+      "max_T": 97,
+      "mean_T": 63.25,
+      "median_T": 59.0,
+      "mean_duration_at_20fps_sec": 3.1624999046325684
+    },
+    {
+      "gloss": "available",
+      "num_samples": 5,
+      "min_T": 28,
+      "max_T": 80,
+      "mean_T": 50.400001525878906,
+      "median_T": 44.0,
+      "mean_duration_at_20fps_sec": 2.5199999809265137
+    }
+  ]
+}

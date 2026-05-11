@@ -1,0 +1,14 @@
+{
+  "input_text": "able",
+  "matched_gloss": "able",
+  "gloss_id": 5,
+  "checkpoint_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/checkpoints/best_model.pth",
+  "output_shape": [
+    60,
+    182
+  ],
+  "denormalized": true,
+  "device": "cuda",
+  "demo_motion_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/outputs/generated/able_smplx.npy",
+  "demo_video_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/outputs/videos/able_animation.mp4"
+}

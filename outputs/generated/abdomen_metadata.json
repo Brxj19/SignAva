@@ -1,0 +1,14 @@
+{
+  "input_text": "abdomen",
+  "matched_gloss": "abdomen",
+  "gloss_id": 4,
+  "checkpoint_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/checkpoints/best_model.pth",
+  "output_shape": [
+    60,
+    182
+  ],
+  "denormalized": true,
+  "device": "cuda",
+  "demo_motion_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/outputs/generated/abdomen_smplx.npy",
+  "demo_video_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/outputs/videos/abdomen_animation.mp4"
+}

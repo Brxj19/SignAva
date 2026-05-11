@@ -1,0 +1,1501 @@
+{
+  "num_glosses": 124,
+  "token_length": 20,
+  "average_hamming_similarity": 0.027301337529504324,
+  "most_similar_gloss_pairs": [
+    {
+      "gloss_a": "a lot",
+      "gloss_b": "abdomen",
+      "gloss_id_a": 3,
+      "gloss_id_b": 4,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "about",
+      "gloss_b": "actor",
+      "gloss_id_a": 6,
+      "gloss_id_b": 18,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "about",
+      "gloss_b": "afraid",
+      "gloss_id_a": 6,
+      "gloss_id_b": 32,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "about",
+      "gloss_b": "africa",
+      "gloss_id_a": 6,
+      "gloss_id_b": 33,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "about",
+      "gloss_b": "afternoon",
+      "gloss_id_a": 6,
+      "gloss_id_b": 35,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "about",
+      "gloss_b": "agree",
+      "gloss_id_a": 6,
+      "gloss_id_b": 41,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "about",
+      "gloss_b": "alcohol",
+      "gloss_id_a": 6,
+      "gloss_id_b": 48,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "about",
+      "gloss_b": "angry",
+      "gloss_id_a": 6,
+      "gloss_id_b": 69,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "about",
+      "gloss_b": "apartment",
+      "gloss_id_a": 6,
+      "gloss_id_b": 79,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "about",
+      "gloss_b": "around",
+      "gloss_id_a": 6,
+      "gloss_id_b": 96,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "above",
+      "gloss_b": "accountant",
+      "gloss_id_a": 7,
+      "gloss_id_b": 12,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "above",
+      "gloss_b": "allergy",
+      "gloss_id_a": 7,
+      "gloss_id_b": 52,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "above",
+      "gloss_b": "announce",
+      "gloss_id_a": 7,
+      "gloss_id_b": 72,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "accent",
+      "gloss_b": "adjective",
+      "gloss_id_a": 8,
+      "gloss_id_b": 22,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "accent",
+      "gloss_b": "again",
+      "gloss_id_a": 8,
+      "gloss_id_b": 36,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "accent",
+      "gloss_b": "age",
+      "gloss_id_a": 8,
+      "gloss_id_b": 38,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "accept",
+      "gloss_b": "anatomy",
+      "gloss_id_a": 9,
+      "gloss_id_b": 65,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "accountant",
+      "gloss_b": "allergy",
+      "gloss_id_a": 12,
+      "gloss_id_b": 52,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "accountant",
+      "gloss_b": "announce",
+      "gloss_id_a": 12,
+      "gloss_id_b": 72,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "across",
+      "gloss_b": "affect",
+      "gloss_id_a": 13,
+      "gloss_id_b": 31,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    }
+  ],
+  "identical_token_sequences": [
+    {
+      "gloss_a": "a lot",
+      "gloss_b": "abdomen",
+      "gloss_id_a": 3,
+      "gloss_id_b": 4,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "about",
+      "gloss_b": "actor",
+      "gloss_id_a": 6,
+      "gloss_id_b": 18,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "about",
+      "gloss_b": "afraid",
+      "gloss_id_a": 6,
+      "gloss_id_b": 32,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "about",
+      "gloss_b": "africa",
+      "gloss_id_a": 6,
+      "gloss_id_b": 33,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "about",
+      "gloss_b": "afternoon",
+      "gloss_id_a": 6,
+      "gloss_id_b": 35,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "about",
+      "gloss_b": "agree",
+      "gloss_id_a": 6,
+      "gloss_id_b": 41,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "about",
+      "gloss_b": "alcohol",
+      "gloss_id_a": 6,
+      "gloss_id_b": 48,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "about",
+      "gloss_b": "angry",
+      "gloss_id_a": 6,
+      "gloss_id_b": 69,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "about",
+      "gloss_b": "apartment",
+      "gloss_id_a": 6,
+      "gloss_id_b": 79,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "about",
+      "gloss_b": "around",
+      "gloss_id_a": 6,
+      "gloss_id_b": 96,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "above",
+      "gloss_b": "accountant",
+      "gloss_id_a": 7,
+      "gloss_id_b": 12,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "above",
+      "gloss_b": "allergy",
+      "gloss_id_a": 7,
+      "gloss_id_b": 52,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "above",
+      "gloss_b": "announce",
+      "gloss_id_a": 7,
+      "gloss_id_b": 72,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "accent",
+      "gloss_b": "adjective",
+      "gloss_id_a": 8,
+      "gloss_id_b": 22,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "accent",
+      "gloss_b": "again",
+      "gloss_id_a": 8,
+      "gloss_id_b": 36,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "accent",
+      "gloss_b": "age",
+      "gloss_id_a": 8,
+      "gloss_id_b": 38,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "accept",
+      "gloss_b": "anatomy",
+      "gloss_id_a": 9,
+      "gloss_id_b": 65,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "accountant",
+      "gloss_b": "allergy",
+      "gloss_id_a": 12,
+      "gloss_id_b": 52,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "accountant",
+      "gloss_b": "announce",
+      "gloss_id_a": 12,
+      "gloss_id_b": 72,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "across",
+      "gloss_b": "affect",
+      "gloss_id_a": 13,
+      "gloss_id_b": 31,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "action",
+      "gloss_b": "active",
+      "gloss_id_a": 15,
+      "gloss_id_b": 16,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "action",
+      "gloss_b": "australia",
+      "gloss_id_a": 15,
+      "gloss_id_b": 120,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "active",
+      "gloss_b": "australia",
+      "gloss_id_a": 16,
+      "gloss_id_b": 120,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "actor",
+      "gloss_b": "afraid",
+      "gloss_id_a": 18,
+      "gloss_id_b": 32,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "actor",
+      "gloss_b": "africa",
+      "gloss_id_a": 18,
+      "gloss_id_b": 33,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "actor",
+      "gloss_b": "afternoon",
+      "gloss_id_a": 18,
+      "gloss_id_b": 35,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "actor",
+      "gloss_b": "agree",
+      "gloss_id_a": 18,
+      "gloss_id_b": 41,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "actor",
+      "gloss_b": "alcohol",
+      "gloss_id_a": 18,
+      "gloss_id_b": 48,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "actor",
+      "gloss_b": "angry",
+      "gloss_id_a": 18,
+      "gloss_id_b": 69,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "actor",
+      "gloss_b": "apartment",
+      "gloss_id_a": 18,
+      "gloss_id_b": 79,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "actor",
+      "gloss_b": "around",
+      "gloss_id_a": 18,
+      "gloss_id_b": 96,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "adapt",
+      "gloss_b": "authority",
+      "gloss_id_a": 19,
+      "gloss_id_b": 123,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "adapt",
+      "gloss_b": "autumn",
+      "gloss_id_a": 19,
+      "gloss_id_b": 124,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "adjective",
+      "gloss_b": "again",
+      "gloss_id_a": 22,
+      "gloss_id_b": 36,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "adjective",
+      "gloss_b": "age",
+      "gloss_id_a": 22,
+      "gloss_id_b": 38,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "adjust",
+      "gloss_b": "also",
+      "gloss_id_a": 23,
+      "gloss_id_b": 59,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "adjust",
+      "gloss_b": "animal",
+      "gloss_id_a": 23,
+      "gloss_id_b": 70,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "admire",
+      "gloss_b": "analyze",
+      "gloss_id_a": 24,
+      "gloss_id_b": 64,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "afraid",
+      "gloss_b": "africa",
+      "gloss_id_a": 32,
+      "gloss_id_b": 33,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "afraid",
+      "gloss_b": "afternoon",
+      "gloss_id_a": 32,
+      "gloss_id_b": 35,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "afraid",
+      "gloss_b": "agree",
+      "gloss_id_a": 32,
+      "gloss_id_b": 41,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "afraid",
+      "gloss_b": "alcohol",
+      "gloss_id_a": 32,
+      "gloss_id_b": 48,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "afraid",
+      "gloss_b": "angry",
+      "gloss_id_a": 32,
+      "gloss_id_b": 69,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "afraid",
+      "gloss_b": "apartment",
+      "gloss_id_a": 32,
+      "gloss_id_b": 79,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "afraid",
+      "gloss_b": "around",
+      "gloss_id_a": 32,
+      "gloss_id_b": 96,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "africa",
+      "gloss_b": "afternoon",
+      "gloss_id_a": 33,
+      "gloss_id_b": 35,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "africa",
+      "gloss_b": "agree",
+      "gloss_id_a": 33,
+      "gloss_id_b": 41,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "africa",
+      "gloss_b": "alcohol",
+      "gloss_id_a": 33,
+      "gloss_id_b": 48,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "africa",
+      "gloss_b": "angry",
+      "gloss_id_a": 33,
+      "gloss_id_b": 69,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "africa",
+      "gloss_b": "apartment",
+      "gloss_id_a": 33,
+      "gloss_id_b": 79,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "africa",
+      "gloss_b": "around",
+      "gloss_id_a": 33,
+      "gloss_id_b": 96,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "after",
+      "gloss_b": "almost",
+      "gloss_id_a": 34,
+      "gloss_id_b": 55,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "after",
+      "gloss_b": "america",
+      "gloss_id_a": 34,
+      "gloss_id_b": 62,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "after",
+      "gloss_b": "austria",
+      "gloss_id_a": 34,
+      "gloss_id_b": 121,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "after",
+      "gloss_b": "available",
+      "gloss_id_a": 34,
+      "gloss_id_b": 125,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "afternoon",
+      "gloss_b": "agree",
+      "gloss_id_a": 35,
+      "gloss_id_b": 41,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "afternoon",
+      "gloss_b": "alcohol",
+      "gloss_id_a": 35,
+      "gloss_id_b": 48,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "afternoon",
+      "gloss_b": "angry",
+      "gloss_id_a": 35,
+      "gloss_id_b": 69,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "afternoon",
+      "gloss_b": "apartment",
+      "gloss_id_a": 35,
+      "gloss_id_b": 79,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "afternoon",
+      "gloss_b": "around",
+      "gloss_id_a": 35,
+      "gloss_id_b": 96,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "again",
+      "gloss_b": "age",
+      "gloss_id_a": 36,
+      "gloss_id_b": 38,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "agenda",
+      "gloss_b": "all",
+      "gloss_id_a": 39,
+      "gloss_id_b": 50,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "agree",
+      "gloss_b": "alcohol",
+      "gloss_id_a": 41,
+      "gloss_id_b": 48,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "agree",
+      "gloss_b": "angry",
+      "gloss_id_a": 41,
+      "gloss_id_b": 69,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "agree",
+      "gloss_b": "apartment",
+      "gloss_id_a": 41,
+      "gloss_id_b": 79,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "agree",
+      "gloss_b": "around",
+      "gloss_id_a": 41,
+      "gloss_id_b": 96,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "agreement",
+      "gloss_b": "amputate",
+      "gloss_id_a": 42,
+      "gloss_id_b": 63,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "agreement",
+      "gloss_b": "approach",
+      "gloss_id_a": 42,
+      "gloss_id_b": 86,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "agreement",
+      "gloss_b": "archery",
+      "gloss_id_a": 42,
+      "gloss_id_b": 90,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "agreement",
+      "gloss_b": "assistant",
+      "gloss_id_a": 42,
+      "gloss_id_b": 107,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "aid",
+      "gloss_b": "alone",
+      "gloss_id_a": 44,
+      "gloss_id_b": 56,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "aid",
+      "gloss_b": "always",
+      "gloss_id_a": 44,
+      "gloss_id_b": 60,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "aid",
+      "gloss_b": "another",
+      "gloss_id_a": 44,
+      "gloss_id_b": 74,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "aid",
+      "gloss_b": "apple",
+      "gloss_id_a": 44,
+      "gloss_id_b": 83,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "aid",
+      "gloss_b": "artist",
+      "gloss_id_a": 44,
+      "gloss_id_b": 102,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "aid",
+      "gloss_b": "audiology",
+      "gloss_id_a": 44,
+      "gloss_id_b": 117,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "aim",
+      "gloss_b": "algebra",
+      "gloss_id_a": 45,
+      "gloss_id_b": 49,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "alcohol",
+      "gloss_b": "angry",
+      "gloss_id_a": 48,
+      "gloss_id_b": 69,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "alcohol",
+      "gloss_b": "apartment",
+      "gloss_id_a": 48,
+      "gloss_id_b": 79,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "alcohol",
+      "gloss_b": "around",
+      "gloss_id_a": 48,
+      "gloss_id_b": 96,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "all day",
+      "gloss_b": "appropriate",
+      "gloss_id_a": 51,
+      "gloss_id_b": 87,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "allergy",
+      "gloss_b": "announce",
+      "gloss_id_a": 52,
+      "gloss_id_b": 72,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "allow",
+      "gloss_b": "approve",
+      "gloss_id_a": 54,
+      "gloss_id_b": 88,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "allow",
+      "gloss_b": "art",
+      "gloss_id_a": 54,
+      "gloss_id_b": 100,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "allow",
+      "gloss_b": "article",
+      "gloss_id_a": 54,
+      "gloss_id_b": 101,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "allow",
+      "gloss_b": "attract",
+      "gloss_id_a": 54,
+      "gloss_id_b": 113,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "allow",
+      "gloss_b": "author",
+      "gloss_id_a": 54,
+      "gloss_id_b": 122,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "almost",
+      "gloss_b": "america",
+      "gloss_id_a": 55,
+      "gloss_id_b": 62,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "almost",
+      "gloss_b": "austria",
+      "gloss_id_a": 55,
+      "gloss_id_b": 121,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "almost",
+      "gloss_b": "available",
+      "gloss_id_a": 55,
+      "gloss_id_b": 125,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "alone",
+      "gloss_b": "always",
+      "gloss_id_a": 56,
+      "gloss_id_b": 60,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "alone",
+      "gloss_b": "another",
+      "gloss_id_a": 56,
+      "gloss_id_b": 74,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "alone",
+      "gloss_b": "apple",
+      "gloss_id_a": 56,
+      "gloss_id_b": 83,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "alone",
+      "gloss_b": "artist",
+      "gloss_id_a": 56,
+      "gloss_id_b": 102,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "alone",
+      "gloss_b": "audiology",
+      "gloss_id_a": 56,
+      "gloss_id_b": 117,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "also",
+      "gloss_b": "animal",
+      "gloss_id_a": 59,
+      "gloss_id_b": 70,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "always",
+      "gloss_b": "another",
+      "gloss_id_a": 60,
+      "gloss_id_b": 74,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "always",
+      "gloss_b": "apple",
+      "gloss_id_a": 60,
+      "gloss_id_b": 83,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "always",
+      "gloss_b": "artist",
+      "gloss_id_a": 60,
+      "gloss_id_b": 102,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "always",
+      "gloss_b": "audiology",
+      "gloss_id_a": 60,
+      "gloss_id_b": 117,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "amazing",
+      "gloss_b": "arm",
+      "gloss_id_a": 61,
+      "gloss_id_b": 94,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "amazing",
+      "gloss_b": "arrive",
+      "gloss_id_a": 61,
+      "gloss_id_b": 98,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "amazing",
+      "gloss_b": "assume",
+      "gloss_id_a": 61,
+      "gloss_id_b": 108,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "america",
+      "gloss_b": "austria",
+      "gloss_id_a": 62,
+      "gloss_id_b": 121,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "america",
+      "gloss_b": "available",
+      "gloss_id_a": 62,
+      "gloss_id_b": 125,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "amputate",
+      "gloss_b": "approach",
+      "gloss_id_a": 63,
+      "gloss_id_b": 86,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "amputate",
+      "gloss_b": "archery",
+      "gloss_id_a": 63,
+      "gloss_id_b": 90,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "amputate",
+      "gloss_b": "assistant",
+      "gloss_id_a": 63,
+      "gloss_id_b": 107,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "angry",
+      "gloss_b": "apartment",
+      "gloss_id_a": 69,
+      "gloss_id_b": 79,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "angry",
+      "gloss_b": "around",
+      "gloss_id_a": 69,
+      "gloss_id_b": 96,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "annoy",
+      "gloss_b": "apostrophe",
+      "gloss_id_a": 73,
+      "gloss_id_b": 80,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "annoy",
+      "gloss_b": "attention",
+      "gloss_id_a": 73,
+      "gloss_id_b": 110,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "another",
+      "gloss_b": "apple",
+      "gloss_id_a": 74,
+      "gloss_id_b": 83,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "another",
+      "gloss_b": "artist",
+      "gloss_id_a": 74,
+      "gloss_id_b": 102,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "another",
+      "gloss_b": "audiology",
+      "gloss_id_a": 74,
+      "gloss_id_b": 117,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "apart",
+      "gloss_b": "area",
+      "gloss_id_a": 78,
+      "gloss_id_b": 91,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "apartment",
+      "gloss_b": "around",
+      "gloss_id_a": 79,
+      "gloss_id_b": 96,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "apostrophe",
+      "gloss_b": "attention",
+      "gloss_id_a": 80,
+      "gloss_id_b": 110,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "apple",
+      "gloss_b": "artist",
+      "gloss_id_a": 83,
+      "gloss_id_b": 102,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "apple",
+      "gloss_b": "audiology",
+      "gloss_id_a": 83,
+      "gloss_id_b": 117,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "approach",
+      "gloss_b": "archery",
+      "gloss_id_a": 86,
+      "gloss_id_b": 90,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "approach",
+      "gloss_b": "assistant",
+      "gloss_id_a": 86,
+      "gloss_id_b": 107,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "approve",
+      "gloss_b": "art",
+      "gloss_id_a": 88,
+      "gloss_id_b": 100,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "approve",
+      "gloss_b": "article",
+      "gloss_id_a": 88,
+      "gloss_id_b": 101,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "approve",
+      "gloss_b": "attract",
+      "gloss_id_a": 88,
+      "gloss_id_b": 113,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "approve",
+      "gloss_b": "author",
+      "gloss_id_a": 88,
+      "gloss_id_b": 122,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "april",
+      "gloss_b": "asl",
+      "gloss_id_a": 89,
+      "gloss_id_b": 105,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "archery",
+      "gloss_b": "assistant",
+      "gloss_id_a": 90,
+      "gloss_id_b": 107,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "arm",
+      "gloss_b": "arrive",
+      "gloss_id_a": 94,
+      "gloss_id_b": 98,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "arm",
+      "gloss_b": "assume",
+      "gloss_id_a": 94,
+      "gloss_id_b": 108,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "arrive",
+      "gloss_b": "assume",
+      "gloss_id_a": 98,
+      "gloss_id_b": 108,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "arrogant",
+      "gloss_b": "august",
+      "gloss_id_a": 99,
+      "gloss_id_b": 118,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "art",
+      "gloss_b": "article",
+      "gloss_id_a": 100,
+      "gloss_id_b": 101,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "art",
+      "gloss_b": "attract",
+      "gloss_id_a": 100,
+      "gloss_id_b": 113,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "art",
+      "gloss_b": "author",
+      "gloss_id_a": 100,
+      "gloss_id_b": 122,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "article",
+      "gloss_b": "attract",
+      "gloss_id_a": 101,
+      "gloss_id_b": 113,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "article",
+      "gloss_b": "author",
+      "gloss_id_a": 101,
+      "gloss_id_b": 122,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "artist",
+      "gloss_b": "audiology",
+      "gloss_id_a": 102,
+      "gloss_id_b": 117,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "attract",
+      "gloss_b": "author",
+      "gloss_id_a": 113,
+      "gloss_id_b": 122,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "austria",
+      "gloss_b": "available",
+      "gloss_id_a": 121,
+      "gloss_id_b": 125,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    },
+    {
+      "gloss_a": "authority",
+      "gloss_b": "autumn",
+      "gloss_id_a": 123,
+      "gloss_id_b": 124,
+      "exact_match_count": 20,
+      "token_length": 20,
+      "hamming_similarity": 1.0
+    }
+  ],
+  "identical_token_sequence_count": 141,
+  "top_10_generated_tokens": [
+    {
+      "token": 74,
+      "count": 191
+    },
+    {
+      "token": 12,
+      "count": 157
+    },
+    {
+      "token": 4,
+      "count": 135
+    },
+    {
+      "token": 110,
+      "count": 120
+    },
+    {
+      "token": 104,
+      "count": 108
+    },
+    {
+      "token": 72,
+      "count": 105
+    },
+    {
+      "token": 68,
+      "count": 97
+    },
+    {
+      "token": 37,
+      "count": 90
+    },
+    {
+      "token": 81,
+      "count": 85
+    },
+    {
+      "token": 5,
+      "count": 67
+    }
+  ]
+}

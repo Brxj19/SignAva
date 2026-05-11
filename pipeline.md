@@ -2,9 +2,18 @@
 
 This document explains the complete SignAvatar generative pipeline and summarizes the model performance metrics calculated from the current project artifacts.
 
+The project now contains two model paths:
+
+- **V1 baseline**: direct `gloss_id -> SMPL-X motion` generation in `src/model`.
+- **V2 SignVAE-inspired pipeline**: Motion VQ-VAE plus autoregressive motion-token generation in `src/model_v2`.
+
+V2 is inspired by the SignAvatars paper's SignVAE / Sign-VQVAE idea, but it is not an exact official reproduction because official SignVAE training code is not publicly available in the public repository.
+
 ## 1. Pipeline Overview
 
 The project converts a gloss text input into a generated SMPL-X motion sequence and then renders that sequence as a video.
+
+V1 pipeline:
 
 ```text
 Raw WLASL/SignAvatar data
@@ -26,6 +35,36 @@ Text gloss -> gloss id -> generated SMPL-X motion
         |
         v
 SMPL-X mesh rendering
+        |
+        v
+MP4 sign animation
+```
+
+V2 pipeline:
+
+```text
+Raw WLASL/SignAvatar data
+        |
+        v
+Dataset extraction, verification, index
+        |
+        v
+V2 preparation: resample to 80, filter short clips, canonicalize camera, fix betas
+        |
+        v
+Stage 1: Motion VQ-VAE
+SMPL-X motion -> encoder -> vector quantizer -> decoder -> reconstructed SMPL-X motion
+        |
+        v
+Stage 2: Token generator
+gloss_id -> autoregressive Transformer -> motion token ids
+        |
+        v
+Stage 3: V2 inference
+text/gloss -> token ids -> VQ-VAE decoder -> generated SMPL-X motion
+        |
+        v
+Existing SMPL-X renderer
         |
         v
 MP4 sign animation
@@ -69,7 +108,67 @@ human_models/smplx/SMPLX_FEMALE.pkl
 4. `src.data.prepare_data`
    Builds the training vocabulary, train/validation/test splits, and normalization statistics.
 
-### Current Dataset Summary
+For V2, `src.data.prepare_data` also supports:
+
+```text
+seq_len = 80
+sequence_mode = resample
+min_seq_len = 20
+max_seq_len = optional
+selection_mode = top_count or all
+canonicalize_camera = true
+fix_betas = true
+```
+
+V2 camera canonicalization sets SMPL-X dimensions `179:182` to zero. Fixed betas replace dimensions `159:169` with a consistent value, currently zeros.
+
+### Current V2 Smoke Dataset Summary
+
+Calculated from the V2 smoke preparation command:
+
+```bash
+python3 -m src.data.prepare_data --seq-len 80 --max-glosses 10 --selection-mode top_count --sequence-mode resample --min-seq-len 20 --canonicalize-camera --fix-betas
+```
+
+| Item | Value |
+|---|---:|
+| Total selected samples before filtering | 134 |
+| Kept samples | 133 |
+| Skipped too short | 1 |
+| Skipped too long | 0 |
+| Selected gloss count | 10 |
+| Vocabulary size | 12 |
+| Train samples | 90 |
+| Validation samples | 23 |
+| Test samples | 20 |
+| Motion sequence length | 80 frames |
+| Motion dimension | 182 |
+| Latent token length | 20 |
+| Camera canonicalized | true |
+| Betas fixed | true |
+
+V2 smoke gloss vocabulary:
+
+```text
+about
+accident
+africa
+again
+ago
+all
+always
+approve
+argue
+arrive
+```
+
+V2 summary output:
+
+```text
+outputs/v2_data_summary.json
+```
+
+### Earlier V1 Dataset Summary
 
 Calculated from:
 
@@ -109,10 +208,22 @@ accomplish
 
 ## 3. Motion Representation
 
-Each motion sequence has shape:
+V1 motion sequence shape:
 
 ```text
 (60, 182)
+```
+
+V2 motion sequence shape:
+
+```text
+(80, 182)
+```
+
+V2 latent token sequence shape for `seq_len=80` and `downsample_factor=4`:
+
+```text
+(20,)
 ```
 
 The 182-D SMPL-X parameter layout used by the renderer is:
@@ -130,7 +241,7 @@ The 182-D SMPL-X parameter layout used by the renderer is:
 
 For generated rendering, translation is kept stable in the renderer view layer. Orientation fixes are also applied only in the renderer/view layer, not by modifying generated motion arrays.
 
-## 4. Model Architecture
+## 4. V1 Model Architecture
 
 Model:
 
@@ -163,7 +274,126 @@ After inference, the batch dimension is removed:
 (1, 60, 182) -> (60, 182)
 ```
 
-## 5. Training Pipeline
+## 4b. V2 Model Architecture
+
+V2 lives under:
+
+```text
+src/model_v2/
+```
+
+### Stage 1: Motion VQ-VAE
+
+Main files:
+
+```text
+src/model_v2/vector_quantizer.py
+src/model_v2/vqvae.py
+src/model_v2/losses.py
+src/model_v2/train_vqvae.py
+```
+
+Default configuration:
+
+| Hyperparameter | Value |
+|---|---:|
+| Sequence length | 80 |
+| Motion dimension | 182 |
+| Latent dimension | 256 |
+| Codebook size | 512 |
+| Downsample factor | 4 |
+| Latent token length | 20 |
+| Commitment beta | 0.25 |
+
+Motion VQ-VAE flow:
+
+```text
+(batch, 80, 182)
+        |
+        v
+Conv1D temporal encoder
+        |
+        v
+(batch, 20, 256)
+        |
+        v
+VectorQuantizer nearest-code lookup
+        |
+        v
+code_indices: (batch, 20)
+quantized: (batch, 20, 256)
+        |
+        v
+ConvTranspose1D temporal decoder
+        |
+        v
+reconstruction: (batch, 80, 182)
+```
+
+### Stage 2: Autoregressive Token Generator
+
+Main files:
+
+```text
+src/model_v2/token_generator.py
+src/model_v2/train_token_generator.py
+```
+
+Default configuration:
+
+| Hyperparameter | Value |
+|---|---:|
+| Token length | 20 |
+| Codebook size | 512 |
+| Transformer dimension | 256 |
+| Attention heads | 8 |
+| Layers | 4 |
+| Dropout | 0.1 |
+
+Token generator flow:
+
+```text
+gloss_id + previous motion tokens
+        |
+        v
+GPT-style causal Transformer
+        |
+        v
+logits: (batch, 20, 512)
+```
+
+At inference:
+
+```text
+gloss_id -> autoregressive tokens -> VQ-VAE decoder -> (80, 182)
+```
+
+### V2 Losses
+
+V2 reconstruction loss uses SMPL-X part weights:
+
+| Slice | Part | Weight |
+|---|---|---:|
+| `0:3` | root/global | 0.2 |
+| `3:66` | body | 1.2 |
+| `66:111` | left hand | 4.0 |
+| `111:156` | right hand | 4.0 |
+| `156:159` | jaw | 0.2 |
+| `159:169` | betas | 0.0 |
+| `169:179` | expression | 0.1 |
+| `179:182` | camera translation | 0.0 |
+
+Total V2 VQ-VAE loss:
+
+```text
+recon_loss
++ 0.7 * velocity_loss
++ 0.2 * acceleration_loss
++ vq_loss
++ 0.2 * root_velocity_loss
+```
+
+## 5. V1 Training Pipeline
 
 Training module:
 
@@ -189,6 +419,64 @@ Loss components recorded during training:
 - acceleration loss
 
 The validation metric used for best-model selection is validation loss.
+
+## 5b. V2 Training Pipeline
+
+### Train Motion VQ-VAE
+
+Command:
+
+```bash
+python3 scripts/train_v2_vqvae.py
+```
+
+Smoke command:
+
+```bash
+python3 scripts/train_v2_vqvae.py --epochs 2 --batch-size 8 --save-every 1
+```
+
+Saved artifacts:
+
+```text
+checkpoints_v2/vqvae_best.pth
+checkpoints_v2/vqvae_final.pth
+checkpoints_v2/vqvae_epoch_XXX.pth
+outputs/v2/logs/vqvae_training_history.json
+outputs/v2/logs/vqvae_test_metrics.json
+outputs/v2/reconstructions/
+```
+
+### Train Token Generator
+
+Command:
+
+```bash
+python3 scripts/train_v2_token_generator.py
+```
+
+Smoke command:
+
+```bash
+python3 scripts/train_v2_token_generator.py --epochs 2 --batch-size 8
+```
+
+Saved artifacts:
+
+```text
+checkpoints_v2/token_generator_best.pth
+checkpoints_v2/token_generator_final.pth
+outputs/v2/logs/token_generator_training_history.json
+```
+
+Token-generator metrics:
+
+```text
+cross_entropy
+token_accuracy
+top5_token_accuracy
+per-gloss token accuracy
+```
 
 ## 6. Performance Metrics
 
@@ -292,7 +580,7 @@ checkpoints/best_model.pth
 
 so default inference uses it.
 
-## 8. Inference Pipeline
+## 8. V1 Inference Pipeline
 
 Inference module:
 
@@ -335,6 +623,50 @@ Current generated default motion statistics:
 | Maximum value | 20.110413 |
 | Mean | 0.084432 |
 | Standard deviation | 1.339296 |
+
+## 8b. V2 Inference Pipeline
+
+Inference module:
+
+```text
+src.model_v2.inference_v2
+```
+
+Steps:
+
+1. Load `data/vocab.json`.
+2. Convert text/gloss to `gloss_id`.
+3. Load `checkpoints_v2/token_generator_best.pth`.
+4. Load `checkpoints_v2/vqvae_best.pth`.
+5. Autoregressively generate 20 motion token ids.
+6. Decode token ids through the VQ-VAE decoder.
+7. Denormalize with `data/normalization_stats.json`.
+8. Save V2 `.npy` motion and metadata.
+
+Notebook command:
+
+```python
+from src.model_v2.inference_v2 import generate_motion_v2
+
+motion, metadata = generate_motion_v2("about")
+print(motion.shape)
+print(metadata)
+```
+
+Output:
+
+```text
+outputs/v2/generated/about_v2_smplx.npy
+outputs/v2/generated/about_v2_metadata.json
+```
+
+Expected generated V2 motion:
+
+| Metric | Value |
+|---|---:|
+| Shape | `(80, 182)` |
+| Latent tokens generated | 20 |
+| Codebook size | 512 |
 
 ## 9. Rendering Pipeline
 
@@ -399,7 +731,7 @@ The current demo index reports:
 |---|---:|
 | done | 10 |
 
-## 10. Demo Generation Pipeline
+## 10. V1 Demo Generation Pipeline
 
 Demo module:
 
@@ -434,6 +766,44 @@ outputs/generated/{safe_gloss}_smplx.npy
 outputs/generated/{safe_gloss}_metadata.json
 outputs/videos/{safe_gloss}_animation.mp4
 outputs/demo/demo_index.json
+```
+
+## 10b. V2 Demo Generation Pipeline
+
+Demo script:
+
+```text
+scripts/generate_v2_demo.py
+```
+
+For each selected gloss:
+
+1. Generate motion token ids with the V2 token generator.
+2. Decode motion with the VQ-VAE decoder.
+3. Save gloss-specific V2 `.npy`.
+4. Save gloss-specific V2 metadata.
+5. Optionally render with the existing SMPL-X renderer.
+6. Write `outputs/v2/demo_index.json`.
+
+Command for one gloss without rendering:
+
+```bash
+python3 scripts/generate_v2_demo.py --gloss about --no-render
+```
+
+Command for one gloss with rendering:
+
+```bash
+python3 scripts/generate_v2_demo.py --gloss about
+```
+
+Outputs:
+
+```text
+outputs/v2/generated/{safe_gloss}_v2_smplx.npy
+outputs/v2/generated/{safe_gloss}_v2_metadata.json
+outputs/v2/videos/{safe_gloss}_v2_animation.mp4
+outputs/v2/demo_index.json
 ```
 
 ## 11. How Metrics Were Calculated
@@ -480,6 +850,9 @@ height = cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
 - The validation set has only 10 samples, so validation metrics should be interpreted carefully.
 - Rendering quality depends on SMPL-X model availability and headless OpenGL/EGL behavior.
 - If the default checkpoint path points to a smoke-test checkpoint, inference quality may be worse than the full 50-epoch model.
+- V2 is paper-inspired, not an official SignVAE reproduction.
+- The current V2 checkpoints from smoke testing are only 2-epoch sanity-check artifacts and are not quality models.
+- V2 token generation quality depends strongly on VQ-VAE reconstruction quality and codebook usage.
 
 ## 13. Recommended Next Evaluation Step
 
@@ -496,3 +869,15 @@ outputs/evaluation/test_metrics.json
 ```
 
 This would make the performance report more complete than train/validation history alone.
+
+For V2, the next useful evaluation step is:
+
+```bash
+python3 scripts/evaluate_v2.py --split test
+```
+
+This evaluates VQ-VAE reconstruction and token-generator accuracy, saving reports under:
+
+```text
+outputs/v2/evaluation/
+```

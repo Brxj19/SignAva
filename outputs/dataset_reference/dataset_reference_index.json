@@ -1,0 +1,152 @@
+[
+  {
+    "gloss": "a",
+    "safe_gloss": "a",
+    "status": "done",
+    "sample_strategy": "longest",
+    "pkl_path": "data/annotations/wlasl_pkls_cropFalse_defult_shape/01610.pkl",
+    "motion_shape": [
+      106,
+      182
+    ],
+    "motion_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/outputs/dataset_reference/a_real_smplx.npy",
+    "video_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/outputs/videos/dataset_reference/a_real_reference.mp4",
+    "device": "cuda",
+    "error": null
+  },
+  {
+    "gloss": "a lot",
+    "safe_gloss": "a_lot",
+    "status": "done",
+    "sample_strategy": "longest",
+    "pkl_path": "data/annotations/wlasl_pkls_cropFalse_defult_shape/02126.pkl",
+    "motion_shape": [
+      81,
+      182
+    ],
+    "motion_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/outputs/dataset_reference/a_lot_real_smplx.npy",
+    "video_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/outputs/videos/dataset_reference/a_lot_real_reference.mp4",
+    "device": "cuda",
+    "error": null
+  },
+  {
+    "gloss": "abdomen",
+    "safe_gloss": "abdomen",
+    "status": "done",
+    "sample_strategy": "longest",
+    "pkl_path": "data/annotations/wlasl_pkls_cropFalse_defult_shape/00341.pkl",
+    "motion_shape": [
+      71,
+      182
+    ],
+    "motion_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/outputs/dataset_reference/abdomen_real_smplx.npy",
+    "video_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/outputs/videos/dataset_reference/abdomen_real_reference.mp4",
+    "device": "cuda",
+    "error": null
+  },
+  {
+    "gloss": "able",
+    "safe_gloss": "able",
+    "status": "done",
+    "sample_strategy": "longest",
+    "pkl_path": "data/annotations/wlasl_pkls_cropFalse_defult_shape/00377.pkl",
+    "motion_shape": [
+      75,
+      182
+    ],
+    "motion_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/outputs/dataset_reference/able_real_smplx.npy",
+    "video_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/outputs/videos/dataset_reference/able_real_reference.mp4",
+    "device": "cuda",
+    "error": null
+  },
+  {
+    "gloss": "about",
+    "safe_gloss": "about",
+    "status": "done",
+    "sample_strategy": "longest",
+    "pkl_path": "data/annotations/wlasl_pkls_cropFalse_defult_shape/00416.pkl",
+    "motion_shape": [
+      98,
+      182
+    ],
+    "motion_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/outputs/dataset_reference/about_real_smplx.npy",
+    "video_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/outputs/videos/dataset_reference/about_real_reference.mp4",
+    "device": "cuda",
+    "error": null
+  },
+  {
+    "gloss": "above",
+    "safe_gloss": "above",
+    "status": "done",
+    "sample_strategy": "longest",
+    "pkl_path": "data/annotations/wlasl_pkls_cropFalse_defult_shape/00431.pkl",
+    "motion_shape": [
+      103,
+      182
+    ],
+    "motion_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/outputs/dataset_reference/above_real_smplx.npy",
+    "video_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/outputs/videos/dataset_reference/above_real_reference.mp4",
+    "device": "cuda",
+    "error": null
+  },
+  {
+    "gloss": "accent",
+    "safe_gloss": "accent",
+    "status": "done",
+    "sample_strategy": "longest",
+    "pkl_path": "data/annotations/wlasl_pkls_cropFalse_defult_shape/00581.pkl",
+    "motion_shape": [
+      37,
+      182
+    ],
+    "motion_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/outputs/dataset_reference/accent_real_smplx.npy",
+    "video_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/outputs/videos/dataset_reference/accent_real_reference.mp4",
+    "device": "cuda",
+    "error": null
+  },
+  {
+    "gloss": "accept",
+    "safe_gloss": "accept",
+    "status": "done",
+    "sample_strategy": "longest",
+    "pkl_path": "data/annotations/wlasl_pkls_cropFalse_defult_shape/00592.pkl",
+    "motion_shape": [
+      125,
+      182
+    ],
+    "motion_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/outputs/dataset_reference/accept_real_smplx.npy",
+    "video_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/outputs/videos/dataset_reference/accept_real_reference.mp4",
+    "device": "cuda",
+    "error": null
+  },
+  {
+    "gloss": "accident",
+    "safe_gloss": "accident",
+    "status": "done",
+    "sample_strategy": "longest",
+    "pkl_path": "data/annotations/wlasl_pkls_cropFalse_defult_shape/00623.pkl",
+    "motion_shape": [
+      104,
+      182
+    ],
+    "motion_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/outputs/dataset_reference/accident_real_smplx.npy",
+    "video_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/outputs/videos/dataset_reference/accident_real_reference.mp4",
+    "device": "cuda",
+    "error": null
+  },
+  {
+    "gloss": "accomplish",
+    "safe_gloss": "accomplish",
+    "status": "done",
+    "sample_strategy": "longest",
+    "pkl_path": "data/annotations/wlasl_pkls_cropFalse_defult_shape/00663.pkl",
+    "motion_shape": [
+      117,
+      182
+    ],
+    "motion_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/outputs/dataset_reference/accomplish_real_smplx.npy",
+    "video_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/outputs/videos/dataset_reference/accomplish_real_reference.mp4",
+    "device": "cuda",
+    "error": null
+  }
+]

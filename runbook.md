@@ -2,6 +2,11 @@
 
 This runbook lists the commands to run the project from dataset preparation to inference, rendering, and demo video generation.
 
+The project currently has two model paths:
+
+- **V1 baseline**: `src/model`, direct `gloss_id -> SMPL-X motion` generation.
+- **V2 SignVAE-inspired path**: `src/model_v2`, a paper-inspired Motion VQ-VAE plus autoregressive motion-token generator. V2 is not an exact SignAvatars SignVAE reproduction because official SignVAE training code is not publicly available.
+
 Run commands from the project root:
 
 ```bash
@@ -115,6 +120,29 @@ summary = prepare_data(
 summary
 ```
 
+For the V2 SignVAE-inspired pipeline, use 80 frames, resampling, short-clip filtering, camera canonicalization, and fixed betas:
+
+```bash
+python3 -m src.data.prepare_data --seq-len 80 --max-glosses 10 --selection-mode top_count --sequence-mode resample --min-seq-len 20 --canonicalize-camera --fix-betas
+```
+
+V2 preparation additionally writes:
+
+```text
+outputs/v2_data_summary.json
+```
+
+Important V2 defaults:
+
+```text
+seq_len = 80
+motion_dim = 182
+latent token length = 20
+min_seq_len = 20
+camera dims 179:182 = zeroed
+betas dims 159:169 = fixed
+```
+
 Expected outputs:
 
 ```text
@@ -151,6 +179,65 @@ Expected outputs:
 checkpoints/best_model.pth
 checkpoints/final_model.pth
 outputs/logs/training_history.json
+```
+
+## 5b. V2 Training
+
+V2 training has two stages.
+
+### Stage 1: train Motion VQ-VAE
+
+```bash
+python3 scripts/train_v2_vqvae.py
+```
+
+Smoke test:
+
+```bash
+python3 scripts/train_v2_vqvae.py --epochs 2 --batch-size 8 --save-every 1
+```
+
+Expected outputs:
+
+```text
+checkpoints_v2/vqvae_best.pth
+checkpoints_v2/vqvae_final.pth
+checkpoints_v2/vqvae_epoch_XXX.pth
+outputs/v2/logs/vqvae_training_history.json
+outputs/v2/logs/vqvae_test_metrics.json
+outputs/v2/reconstructions/reconstruction_*.npy
+```
+
+Expected reconstruction shape:
+
+```text
+(batch, 80, 182)
+```
+
+Expected latent token shape:
+
+```text
+(batch, 20)
+```
+
+### Stage 2: train gloss-to-token generator
+
+```bash
+python3 scripts/train_v2_token_generator.py
+```
+
+Smoke test:
+
+```bash
+python3 scripts/train_v2_token_generator.py --epochs 2 --batch-size 8
+```
+
+Expected outputs:
+
+```text
+checkpoints_v2/token_generator_best.pth
+checkpoints_v2/token_generator_final.pth
+outputs/v2/logs/token_generator_training_history.json
 ```
 
 Resume training from checkpoint:
@@ -200,6 +287,37 @@ print(list_available_glosses())
 motion, metadata = generate_motion("about")
 print(motion.shape)
 print(metadata)
+```
+
+## 6b. V2 Inference
+
+Generate a V2 motion sequence:
+
+```python
+from src.model_v2.inference_v2 import generate_motion_v2
+
+motion, metadata = generate_motion_v2("about")
+print(motion.shape)
+print(metadata)
+```
+
+Expected outputs:
+
+```text
+outputs/v2/generated/about_v2_smplx.npy
+outputs/v2/generated/about_v2_metadata.json
+```
+
+Expected V2 motion shape:
+
+```text
+(80, 182)
+```
+
+The V2 inference path is:
+
+```text
+text/gloss -> gloss_id -> token generator -> motion token ids -> VQ-VAE decoder -> SMPL-X motion
 ```
 
 ## 7. Render Generated Motion
@@ -363,6 +481,35 @@ results = generate_demo_videos(
 print(results)
 ```
 
+## 9b. V2 Demo Generation
+
+Generate one V2 gloss without rendering:
+
+```bash
+python3 scripts/generate_v2_demo.py --gloss about --no-render
+```
+
+Generate and render one V2 gloss:
+
+```bash
+python3 scripts/generate_v2_demo.py --gloss about
+```
+
+Generate first 5 V2 glosses:
+
+```bash
+python3 scripts/generate_v2_demo.py --limit 5
+```
+
+V2 outputs:
+
+```text
+outputs/v2/generated/{safe_gloss}_v2_smplx.npy
+outputs/v2/generated/{safe_gloss}_v2_metadata.json
+outputs/v2/videos/{safe_gloss}_v2_animation.mp4
+outputs/v2/demo_index.json
+```
+
 ## 10. Display Videos in Colab
 
 Display one generated demo video:
@@ -409,6 +556,28 @@ python3 -m src.renderer.smplx_renderer --force-flip-vertical --view-yaw 0
 python3 -m src.demo.generate_demo_videos --gloss about --force-flip-vertical --view-yaw 0
 ```
 
+### Full V2 Local Workflow
+
+```bash
+python3 -m pip install -r requirements.txt
+python3 -m src.data.extract_dataset
+python3 -m src.data.verify_dataset
+python3 -m src.data.build_index
+python3 -m src.data.prepare_data --seq-len 80 --max-glosses 10 --selection-mode top_count --sequence-mode resample --min-seq-len 20 --canonicalize-camera --fix-betas
+python3 scripts/train_v2_vqvae.py
+python3 scripts/train_v2_token_generator.py
+python3 scripts/generate_v2_demo.py --gloss about
+```
+
+### V2 Smoke Test Workflow
+
+```bash
+python3 -m src.data.prepare_data --seq-len 80 --max-glosses 10 --selection-mode top_count --sequence-mode resample --min-seq-len 20 --canonicalize-camera --fix-betas
+python3 scripts/train_v2_vqvae.py --epochs 2 --batch-size 8 --save-every 1
+python3 scripts/train_v2_token_generator.py --epochs 2 --batch-size 8
+python3 scripts/generate_v2_demo.py --gloss about --no-render
+```
+
 ### Full Colab Workflow
 
 ```python
@@ -443,6 +612,13 @@ Run training first or pass a custom checkpoint to inference:
 
 ```bash
 python3 -m src.model.inference --text "about" --checkpoint checkpoints/final_model.pth
+```
+
+For V2, confirm these files exist:
+
+```text
+checkpoints_v2/vqvae_best.pth
+checkpoints_v2/token_generator_best.pth
 ```
 
 ### Unknown gloss
@@ -511,3 +687,6 @@ Then restart the runtime and rerun setup if needed.
 - Final demo generation does not load or replay dataset `.pkl` files.
 - Orientation fixes are applied only in the renderer/view layer.
 - Do not modify `outputs/generated/generated_smplx.npy` to fix camera orientation.
+- V2 keeps V1 untouched under `src/model`.
+- V2 generated motion must keep shape `(80, 182)` for renderer compatibility.
+- V2 camera canonicalization is applied during data loading/preparation by zeroing dimensions `179:182`.

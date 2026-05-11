@@ -1,0 +1,14 @@
+{
+  "input_text": "a",
+  "matched_gloss": "a",
+  "gloss_id": 2,
+  "checkpoint_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/checkpoints/best_model.pth",
+  "output_shape": [
+    60,
+    182
+  ],
+  "denormalized": true,
+  "device": "cuda",
+  "demo_motion_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/outputs/generated/a_smplx.npy",
+  "demo_video_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/outputs/videos/a_animation.mp4"
+}

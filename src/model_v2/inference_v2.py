@@ -30,7 +30,11 @@ def _load_generator(path: Path, vocab_size: int, device: torch.device) -> Motion
         num_layers=int(config.get("num_layers", 4)),
         dropout=float(config.get("dropout", 0.1)),
     )
-    generator.load_state_dict(checkpoint["model_state_dict"])
+    missing, unexpected = generator.load_state_dict(checkpoint["model_state_dict"], strict=False)
+    if missing:
+        print(f"Warning: token generator checkpoint missing keys initialized from defaults: {missing}")
+    if unexpected:
+        print(f"Warning: token generator checkpoint has unexpected keys ignored: {unexpected}")
     return generator.to(device).eval()
 
 
@@ -41,6 +45,9 @@ def generate_motion_v2(
     denormalize: bool = True,
     greedy: bool = True,
     temperature: float = 1.0,
+    repetition_penalty: float = 1.2,
+    no_repeat_ngram_size: int = 0,
+    top_k: int = 0,
 ) -> tuple[np.ndarray, dict[str, Any]]:
     device = select_device()
     checkpoint_dir = Path(checkpoint_dir)
@@ -62,7 +69,14 @@ def generate_motion_v2(
 
     gloss_tensor = torch.tensor([gloss_id], dtype=torch.long, device=device)
     with torch.no_grad():
-        code_indices = generator.generate(gloss_tensor, temperature=temperature, greedy=greedy)
+        code_indices = generator.generate(
+            gloss_tensor,
+            temperature=temperature,
+            greedy=greedy,
+            repetition_penalty=repetition_penalty,
+            no_repeat_ngram_size=no_repeat_ngram_size,
+            top_k=top_k,
+        )
         motion_tensor = vqvae.decode(code_indices=code_indices)
     motion = motion_tensor.squeeze(0).detach().cpu().numpy().astype(np.float32)
     if denormalize:
@@ -92,6 +106,13 @@ def generate_motion_v2(
         },
         "output_path": str(motion_path),
         "denormalized": denormalize,
+        "decode": {
+            "strategy": "greedy" if greedy else "sample",
+            "temperature": temperature,
+            "repetition_penalty": repetition_penalty,
+            "no_repeat_ngram_size": no_repeat_ngram_size,
+            "top_k": top_k,
+        },
     }
     with metadata_path.open("w", encoding="utf-8") as handle:
         json.dump(metadata, handle, indent=2)

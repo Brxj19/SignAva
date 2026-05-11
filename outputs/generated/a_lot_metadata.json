@@ -1,0 +1,14 @@
+{
+  "input_text": "a lot",
+  "matched_gloss": "a lot",
+  "gloss_id": 3,
+  "checkpoint_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/checkpoints/best_model.pth",
+  "output_shape": [
+    60,
+    182
+  ],
+  "denormalized": true,
+  "device": "cuda",
+  "demo_motion_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/outputs/generated/a_lot_smplx.npy",
+  "demo_video_path": "/content/drive/MyDrive/FYP/SignAvatar_Generative_Project/outputs/videos/a_lot_animation.mp4"
+}

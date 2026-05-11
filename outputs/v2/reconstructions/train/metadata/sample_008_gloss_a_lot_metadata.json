@@ -1,0 +1,45 @@
+{
+  "sample_index": 8,
+  "output_index": 8,
+  "dataset_split": "train",
+  "gloss": "a lot",
+  "gloss_id": 3,
+  "original_path": "data/annotations/wlasl_pkls_cropFalse_defult_shape/02124.pkl",
+  "checkpoint_path": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+  "seq_len": 80,
+  "motion_dim": 182,
+  "token_len": 20,
+  "code_indices": [
+    58,
+    58,
+    58,
+    72,
+    107,
+    95,
+    107,
+    107,
+    107,
+    95,
+    95,
+    95,
+    107,
+    92,
+    46,
+    46,
+    46,
+    46,
+    58,
+    58
+  ],
+  "vq_loss": 0.3649817407131195,
+  "perplexity": 5.1371355056762695,
+  "output_npy_paths": {
+    "original": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/reconstructions/train/npy/sample_008_gloss_a_lot_original.npy",
+    "reconstructed": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/reconstructions/train/npy/sample_008_gloss_a_lot_reconstructed.npy"
+  },
+  "output_video_paths": {
+    "original": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/reconstructions/train/original/sample_008_gloss_a_lot_original.mp4",
+    "reconstructed": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/reconstructions/train/reconstructed/sample_008_gloss_a_lot_reconstructed.mp4",
+    "contact_sheet": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/reconstructions/train/contact_sheets/sample_008_gloss_a_lot_comparison.jpg"
+  }
+}

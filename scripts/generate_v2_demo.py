@@ -20,6 +20,11 @@ def generate_v2_demo(
     limit: int | None = None,
     render: bool = True,
     max_frames: int | None = None,
+    decode_strategy: str = "greedy",
+    temperature: float = 1.0,
+    top_k: int = 0,
+    repetition_penalty: float = 1.2,
+    no_repeat_ngram_size: int = 0,
 ) -> list[dict]:
     selected = glosses or _available_glosses()
     if limit is not None:
@@ -37,7 +42,15 @@ def generate_v2_demo(
         video_path = videos_dir / f"{safe}_v2_animation.mp4"
         entry = {"gloss": gloss, "motion_path": str(motion_path), "video_path": str(video_path), "status": "pending"}
         try:
-            _, metadata = generate_motion_v2(gloss, output_path=motion_path)
+            _, metadata = generate_motion_v2(
+                gloss,
+                output_path=motion_path,
+                greedy=decode_strategy == "greedy",
+                temperature=temperature,
+                top_k=top_k,
+                repetition_penalty=repetition_penalty,
+                no_repeat_ngram_size=no_repeat_ngram_size,
+            )
             entry["metadata"] = metadata
             if renderer is not None:
                 renderer.render_generated_motion(motion_path=motion_path, output_path=video_path, max_frames=max_frames)
@@ -59,8 +72,23 @@ def main() -> None:
     parser.add_argument("--limit", type=int, default=None)
     parser.add_argument("--no-render", action="store_true")
     parser.add_argument("--max-frames", type=int, default=None)
+    parser.add_argument("--decode-strategy", choices=["greedy", "sample"], default="greedy")
+    parser.add_argument("--temperature", type=float, default=1.0)
+    parser.add_argument("--top-k", type=int, default=0)
+    parser.add_argument("--repetition-penalty", type=float, default=1.2)
+    parser.add_argument("--no-repeat-ngram-size", type=int, default=0)
     args = parser.parse_args()
-    results = generate_v2_demo(args.gloss, args.limit, render=not args.no_render, max_frames=args.max_frames)
+    results = generate_v2_demo(
+        args.gloss,
+        args.limit,
+        render=not args.no_render,
+        max_frames=args.max_frames,
+        decode_strategy=args.decode_strategy,
+        temperature=args.temperature,
+        top_k=args.top_k,
+        repetition_penalty=args.repetition_penalty,
+        no_repeat_ngram_size=args.no_repeat_ngram_size,
+    )
     print(json.dumps(results, indent=2))
 
 

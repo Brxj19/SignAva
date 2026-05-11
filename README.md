@@ -1,5 +1,12 @@
 # SignAvatar Generative Project
 
+This project has two model paths:
+
+- **V1 baseline** in `src/model`: directly maps `gloss_id -> SMPL-X motion`.
+- **V2 SignVAE-inspired pipeline** in `src/model_v2`: trains a Motion VQ-VAE, then trains an autoregressive gloss-to-motion-token generator.
+
+V2 is inspired by the SignAvatars paper's SignVAE / Sign-VQVAE idea. It is not an exact official reproduction because official SignVAE training code is not publicly available in the public repository.
+
 ## Milestone 1: Dataset Setup and Verification
 
 This repository contains utilities to prepare and validate the dataset before any modeling or training work begins.
@@ -93,6 +100,18 @@ summary = prepare_data(
     selection_mode="top_count",
     sequence_mode="resample",
 )
+```
+
+For V2, prepare 80-frame sequences, filter very short clips, canonicalize camera translation, and fix body-shape betas:
+
+```bash
+python3 -m src.data.prepare_data --seq-len 80 --max-glosses 10 --selection-mode top_count --sequence-mode resample --min-seq-len 20 --canonicalize-camera --fix-betas
+```
+
+This additionally saves:
+
+```text
+outputs/v2_data_summary.json
 ```
 
 ### 5. Load dataset with PyTorch
@@ -522,6 +541,28 @@ V2 is inspired by the SignAvatars paper's SignVAE / Sign-VQVAE direction, but it
 
 V2 keeps the original V1 baseline in `src/model` untouched. New code lives under `src/model_v2`.
 
+V2 flow:
+
+```text
+Stage 1:
+SMPL-X motion -> Motion VQ-VAE encoder -> vector quantizer -> decoder -> reconstructed SMPL-X motion
+
+Stage 2:
+gloss_id -> causal Transformer token generator -> motion token ids
+
+Stage 3:
+text/gloss -> token generator -> VQ-VAE decoder -> generated SMPL-X motion -> renderer
+```
+
+Default V2 shapes:
+
+```text
+motion: (80, 182)
+latent code indices: (20,)
+codebook size: 512
+latent dim: 256
+```
+
 ### Prepare V2 data
 
 ```bash
@@ -540,6 +581,12 @@ outputs/v2_data_summary.json
 python scripts/train_v2_vqvae.py
 ```
 
+Smoke test:
+
+```bash
+python3 scripts/train_v2_vqvae.py --epochs 2 --batch-size 8 --save-every 1
+```
+
 The VQ-VAE learns:
 
 ```text
@@ -552,14 +599,94 @@ Checkpoints are saved in `checkpoints_v2/`, and reconstruction samples are saved
 outputs/v2/reconstructions/
 ```
 
+Expected VQ-VAE artifacts:
+
+```text
+checkpoints_v2/vqvae_best.pth
+checkpoints_v2/vqvae_final.pth
+outputs/v2/logs/vqvae_training_history.json
+outputs/v2/logs/vqvae_test_metrics.json
+```
+
 ### Check Reconstruction Videos
 
 Reconstruction `.npy` files are compatible with the existing renderer. V2 generated motion keeps shape `(80, 182)`.
+
+### VQ-VAE Debugging Workflow
+
+Before training the token generator seriously, verify that the tokenizer is using the codebook and reconstructing real motion well.
+
+Step A: reconstruction-only autoencoder test:
+
+```bash
+python scripts/train_v2_vqvae.py \
+  --epochs 100 \
+  --batch-size 16 \
+  --learning-rate 2e-4 \
+  --seq-len 80 \
+  --disable-quantization
+```
+
+Step B: EMA VQ-VAE with a smaller codebook:
+
+```bash
+python scripts/train_v2_vqvae.py \
+  --epochs 500 \
+  --batch-size 16 \
+  --learning-rate 2e-4 \
+  --seq-len 80 \
+  --codebook-size 128 \
+  --latent-dim 256 \
+  --quantizer-type ema \
+  --vq-loss-weight 0.25 \
+  --vq-warmup-epochs 50
+```
+
+Step C: evaluate code usage and reconstruction:
+
+```bash
+python scripts/evaluate_v2.py --mode vqvae --split train
+python scripts/evaluate_v2.py --mode vqvae --split test
+```
+
+Evaluation writes code usage histograms to:
+
+```text
+outputs/v2/evaluation/vqvae_code_usage_train.json
+outputs/v2/evaluation/vqvae_code_usage_test.json
+```
+
+Step D: render original vs reconstructed comparisons:
+
+```bash
+python scripts/render_v2_reconstructions.py --split test --num-samples 10
+```
+
+Useful tokenizer diagnostics:
+
+```text
+perplexity
+unique_codes
+active_code_pct
+dead_code_count
+code_usage_entropy
+top_10_codes
+vq_loss
+recon_loss
+left_hand_mse
+right_hand_mse
+```
 
 ### Train Token Generator
 
 ```bash
 python scripts/train_v2_token_generator.py
+```
+
+Smoke test:
+
+```bash
+python3 scripts/train_v2_token_generator.py --epochs 2 --batch-size 8
 ```
 
 This freezes the trained VQ-VAE and trains:
@@ -568,14 +695,73 @@ This freezes the trained VQ-VAE and trains:
 gloss_id -> autoregressive Transformer -> motion token sequence
 ```
 
+Expected token-generator artifacts:
+
+```text
+checkpoints_v2/token_generator_best.pth
+checkpoints_v2/token_generator_final.pth
+outputs/v2/logs/token_generator_training_history.json
+```
+
+### Generate One V2 Motion
+
+```python
+from src.model_v2.inference_v2 import generate_motion_v2
+
+motion, metadata = generate_motion_v2("about")
+print(motion.shape)
+print(metadata)
+```
+
+Expected output shape:
+
+```text
+(80, 182)
+```
+
 ### Generate V2 Demo
 
 ```bash
 python scripts/generate_v2_demo.py
 ```
 
+Generate one gloss without rendering:
+
+```bash
+python3 scripts/generate_v2_demo.py --gloss about --no-render
+```
+
 Generated motions are saved in `outputs/v2/generated/`, and videos are saved in:
 
 ```text
 outputs/v2/videos/
+```
+
+### Evaluate V2
+
+```bash
+python3 scripts/evaluate_v2.py --split test
+```
+
+Outputs are saved in:
+
+```text
+outputs/v2/evaluation/
+```
+
+### V2 Smoke-Test Checklist
+
+```bash
+python3 -m src.data.prepare_data --seq-len 80 --max-glosses 10 --selection-mode top_count --sequence-mode resample --min-seq-len 20 --canonicalize-camera --fix-betas
+python3 scripts/train_v2_vqvae.py --epochs 2 --batch-size 8 --save-every 1
+python3 scripts/train_v2_token_generator.py --epochs 2 --batch-size 8
+python3 scripts/generate_v2_demo.py --gloss about --no-render
+```
+
+The smoke test should produce:
+
+```text
+checkpoints_v2/vqvae_best.pth
+checkpoints_v2/token_generator_best.pth
+outputs/v2/generated/about_v2_smplx.npy
 ```

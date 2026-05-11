@@ -44,9 +44,9 @@ data/*.npz
 data/*.zip
 
 # Model checkpoints and training outputs
-checkpoints/
-backups/
-outputs/
+# checkpoints/
+# backups/
+# outputs/
 runs/
 wandb/
 mlruns/
@@ -63,11 +63,11 @@ human_models/
 *.npz
 
 # Generated media
-*.mp4
-*.avi
-*.mov
-*.mkv
-*.gif
+# *.mp4
+# *.avi
+# *.mov
+# *.mkv
+# *.gif
 
 # Local Codex/session files
 .codex/

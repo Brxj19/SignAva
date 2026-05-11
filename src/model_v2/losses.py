@@ -8,11 +8,13 @@ class WeightedMotionReconstructionLoss(nn.Module):
         velocity_weight: float = 0.7,
         acceleration_weight: float = 0.2,
         root_velocity_weight: float = 0.2,
+        vq_loss_weight: float = 0.25,
     ):
         super().__init__()
         self.velocity_weight = velocity_weight
         self.acceleration_weight = acceleration_weight
         self.root_velocity_weight = root_velocity_weight
+        self.vq_loss_weight = vq_loss_weight
         weights = torch.ones(182, dtype=torch.float32)
         weights[0:3] = 0.2
         weights[3:66] = 1.2
@@ -56,7 +58,7 @@ class WeightedMotionReconstructionLoss(nn.Module):
             recon_loss
             + self.velocity_weight * velocity_loss
             + self.acceleration_weight * acceleration_loss
-            + vq
+            + self.vq_loss_weight * vq
             + self.root_velocity_weight * root_velocity_loss
         )
 

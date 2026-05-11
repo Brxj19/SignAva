@@ -1,0 +1,45 @@
+{
+  "sample_index": 7,
+  "output_index": 7,
+  "dataset_split": "test",
+  "gloss": "accent",
+  "gloss_id": 8,
+  "original_path": "data/annotations/wlasl_pkls_cropFalse_defult_shape/00581.pkl",
+  "checkpoint_path": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+  "seq_len": 80,
+  "motion_dim": 182,
+  "token_len": 20,
+  "code_indices": [
+    105,
+    105,
+    105,
+    105,
+    105,
+    105,
+    105,
+    98,
+    98,
+    105,
+    105,
+    105,
+    105,
+    105,
+    105,
+    105,
+    105,
+    105,
+    105,
+    105
+  ],
+  "vq_loss": 0.30244091153144836,
+  "perplexity": 1.3841454982757568,
+  "output_npy_paths": {
+    "original": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/reconstructions/test/npy/sample_007_gloss_accent_original.npy",
+    "reconstructed": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/reconstructions/test/npy/sample_007_gloss_accent_reconstructed.npy"
+  },
+  "output_video_paths": {
+    "original": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/reconstructions/test/original/sample_007_gloss_accent_original.mp4",
+    "reconstructed": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/reconstructions/test/reconstructed/sample_007_gloss_accent_reconstructed.mp4",
+    "contact_sheet": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/reconstructions/test/contact_sheets/sample_007_gloss_accent_comparison.jpg"
+  }
+}

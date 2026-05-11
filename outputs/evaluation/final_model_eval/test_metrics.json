@@ -1,0 +1,22 @@
+{
+  "split": "test",
+  "checkpoint_path": "checkpoints/final_model.pth",
+  "num_samples": 21,
+  "num_batches": 3,
+  "sequence_mode": "resample",
+  "seq_len": 60,
+  "metrics": {
+    "loss": 1.299565008708409,
+    "weighted_mse": 1.2600374221801758,
+    "weighted_velocity": 0.042321852630092985,
+    "weighted_acceleration": 0.04951149509066627,
+    "root_mse": 0.00035537532780186405,
+    "body_mse": 0.8425347208976746,
+    "left_hand_mse": 1.6266952696300687,
+    "right_hand_mse": 1.1506373428163075,
+    "jaw_mse": 1.2848536769549053,
+    "betas_mse": 0.1549449222428458,
+    "expression_mse": 1.3935250952130271,
+    "translation_mse": 0.9053081529481071
+  }
+}
