@@ -515,3 +515,67 @@ outputs/evaluation/evaluation_metrics.json
 ```
 
 The evaluation report includes total weighted loss plus per-part MSE for root, body, hands, jaw, betas, expression, and translation.
+
+## Version 2: SignVAE-Inspired Pipeline
+
+V2 is inspired by the SignAvatars paper's SignVAE / Sign-VQVAE direction, but it is not an exact official reproduction. The public SignAvatars repository does not currently include official SignVAE training code, so this project implements a paper-inspired VQ-VAE plus autoregressive token generation pipeline.
+
+V2 keeps the original V1 baseline in `src/model` untouched. New code lives under `src/model_v2`.
+
+### Prepare V2 data
+
+```bash
+python -m src.data.prepare_data --max-glosses 10 --selection-mode top_count --sequence-mode resample --seq-len 80 --min-seq-len 20 --canonicalize-camera --fix-betas
+```
+
+This writes V2 summary statistics to:
+
+```text
+outputs/v2_data_summary.json
+```
+
+### Train Motion VQ-VAE
+
+```bash
+python scripts/train_v2_vqvae.py
+```
+
+The VQ-VAE learns:
+
+```text
+SMPL-X motion sequence -> discrete motion tokens -> reconstructed SMPL-X motion
+```
+
+Checkpoints are saved in `checkpoints_v2/`, and reconstruction samples are saved in:
+
+```text
+outputs/v2/reconstructions/
+```
+
+### Check Reconstruction Videos
+
+Reconstruction `.npy` files are compatible with the existing renderer. V2 generated motion keeps shape `(80, 182)`.
+
+### Train Token Generator
+
+```bash
+python scripts/train_v2_token_generator.py
+```
+
+This freezes the trained VQ-VAE and trains:
+
+```text
+gloss_id -> autoregressive Transformer -> motion token sequence
+```
+
+### Generate V2 Demo
+
+```bash
+python scripts/generate_v2_demo.py
+```
+
+Generated motions are saved in `outputs/v2/generated/`, and videos are saved in:
+
+```text
+outputs/v2/videos/
+```

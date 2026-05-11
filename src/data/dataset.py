@@ -98,6 +98,31 @@ def adjust_sequence_length(sequence: np.ndarray, seq_len: int, sequence_mode: st
     raise ValueError("sequence_mode must be one of: pad_trim, resample")
 
 
+def canonicalize_smplx_sequence(
+    sequence: np.ndarray,
+    canonicalize_camera: bool = False,
+    fix_betas: bool = False,
+    betas_value: np.ndarray | None = None,
+) -> np.ndarray:
+    sequence = np.asarray(sequence, dtype=np.float32).copy()
+    if sequence.ndim != 2 or sequence.shape[1] != 182:
+        raise ValueError(f"Expected sequence shape (T, 182), got {sequence.shape}")
+
+    if fix_betas:
+        if betas_value is None:
+            sequence[:, 159:169] = 0.0
+        else:
+            betas = np.asarray(betas_value, dtype=np.float32)
+            if betas.shape != (10,):
+                raise ValueError(f"Expected betas_value shape (10,), got {betas.shape}")
+            sequence[:, 159:169] = betas
+
+    if canonicalize_camera:
+        sequence[:, 179:182] = 0.0
+
+    return sequence
+
+
 def normalize_sequence(sequence: np.ndarray, mean: np.ndarray, std: np.ndarray) -> np.ndarray:
     if sequence.shape[1] != mean.shape[0] or mean.shape != std.shape:
         raise ValueError("Mean/std shapes are incompatible with motion sequence")
@@ -120,6 +145,9 @@ class SignAvatarDataset(Dataset):
         max_glosses: int | None = None,
         max_samples_per_gloss: int | None = None,
         sequence_mode: str = "pad_trim",
+        canonicalize_camera: bool = False,
+        fix_betas: bool = False,
+        betas_value: np.ndarray | None = None,
     ):
         if split not in {"train", "val", "test"}:
             raise ValueError("split must be one of: train, val, test")
@@ -130,6 +158,9 @@ class SignAvatarDataset(Dataset):
         self.sequence_mode = sequence_mode
         self.split = split
         self.use_normalization = use_normalization
+        self.canonicalize_camera = canonicalize_camera
+        self.fix_betas = fix_betas
+        self.betas_value = betas_value
         self.project_root = Path(project_root) if project_root is not None else DATA_DIR.parent
         self.data_dir = self.project_root / "data"
 
@@ -185,6 +216,12 @@ class SignAvatarDataset(Dataset):
         path = self.paths[index]
         raw = load_pickle(path)
         sequence = extract_smplx_sequence(raw)
+        sequence = canonicalize_smplx_sequence(
+            sequence,
+            canonicalize_camera=self.canonicalize_camera,
+            fix_betas=self.fix_betas,
+            betas_value=self.betas_value,
+        )
         sequence = adjust_sequence_length(sequence, self.seq_len, self.sequence_mode)
         if self.use_normalization and self.normalization is not None:
             sequence = normalize_sequence(sequence, *self.normalization)
