@@ -1,0 +1,48 @@
+{
+  "num_sequences": 124,
+  "average_unique_tokens": 1.5887096774193548,
+  "average_transition_count": 0.7741935483870968,
+  "average_repeated_token_ratio": 0.9205645161290322,
+  "top_10_tokens": [
+    {
+      "token": 74,
+      "count": 191
+    },
+    {
+      "token": 12,
+      "count": 157
+    },
+    {
+      "token": 4,
+      "count": 135
+    },
+    {
+      "token": 110,
+      "count": 120
+    },
+    {
+      "token": 104,
+      "count": 108
+    },
+    {
+      "token": 72,
+      "count": 105
+    },
+    {
+      "token": 68,
+      "count": 97
+    },
+    {
+      "token": 37,
+      "count": 90
+    },
+    {
+      "token": 81,
+      "count": 85
+    },
+    {
+      "token": 5,
+      "count": 67
+    }
+  ]
+}
