@@ -1,0 +1,7 @@
+{
+  "epoch": 10,
+  "num_glosses": 124,
+  "average_unique_tokens": 1.3225806451612903,
+  "average_transition_count": 0.43548387096774194,
+  "average_repeated_token_ratio": 0.9338709677419355
+}

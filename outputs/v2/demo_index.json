@@ -1,0 +1,3350 @@
+[
+  {
+    "gloss": "a",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/a_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/a_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "a",
+      "gloss_id": 2,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/a_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "a lot",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/a_lot_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/a_lot_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "a lot",
+      "gloss_id": 3,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/a_lot_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "abdomen",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/abdomen_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/abdomen_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "abdomen",
+      "gloss_id": 4,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/abdomen_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "able",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/able_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/able_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "able",
+      "gloss_id": 5,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/able_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "about",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/about_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/about_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "about",
+      "gloss_id": 6,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/about_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "above",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/above_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/above_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "above",
+      "gloss_id": 7,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/above_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "accent",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/accent_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/accent_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "accent",
+      "gloss_id": 8,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/accent_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "accept",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/accept_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/accept_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "accept",
+      "gloss_id": 9,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/accept_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "accident",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/accident_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/accident_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "accident",
+      "gloss_id": 10,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/accident_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "accomplish",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/accomplish_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/accomplish_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "accomplish",
+      "gloss_id": 11,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/accomplish_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "accountant",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/accountant_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/accountant_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "accountant",
+      "gloss_id": 12,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/accountant_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "across",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/across_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/across_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "across",
+      "gloss_id": 13,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/across_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "act",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/act_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/act_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "act",
+      "gloss_id": 14,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/act_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "action",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/action_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/action_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "action",
+      "gloss_id": 15,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/action_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "active",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/active_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/active_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "active",
+      "gloss_id": 16,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/active_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "activity",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/activity_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/activity_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "activity",
+      "gloss_id": 17,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/activity_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "actor",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/actor_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/actor_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "actor",
+      "gloss_id": 18,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/actor_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "adapt",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/adapt_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/adapt_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "adapt",
+      "gloss_id": 19,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/adapt_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "add",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/add_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/add_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "add",
+      "gloss_id": 20,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/add_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "address",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/address_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/address_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "address",
+      "gloss_id": 21,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/address_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "adjective",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/adjective_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/adjective_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "adjective",
+      "gloss_id": 22,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/adjective_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "adjust",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/adjust_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/adjust_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "adjust",
+      "gloss_id": 23,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/adjust_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "admire",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/admire_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/admire_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "admire",
+      "gloss_id": 24,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/admire_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "admit",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/admit_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/admit_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "admit",
+      "gloss_id": 25,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/admit_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "adopt",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/adopt_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/adopt_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "adopt",
+      "gloss_id": 26,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/adopt_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "adult",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/adult_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/adult_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "adult",
+      "gloss_id": 27,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/adult_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "advanced",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/advanced_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/advanced_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "advanced",
+      "gloss_id": 28,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/advanced_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "advantage",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/advantage_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/advantage_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "advantage",
+      "gloss_id": 29,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/advantage_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "adverb",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/adverb_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/adverb_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "adverb",
+      "gloss_id": 30,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/adverb_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "affect",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/affect_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/affect_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "affect",
+      "gloss_id": 31,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/affect_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "afraid",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/afraid_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/afraid_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "afraid",
+      "gloss_id": 32,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/afraid_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "africa",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/africa_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/africa_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "africa",
+      "gloss_id": 33,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/africa_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "after",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/after_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/after_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "after",
+      "gloss_id": 34,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/after_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "afternoon",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/afternoon_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/afternoon_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "afternoon",
+      "gloss_id": 35,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/afternoon_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "again",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/again_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/again_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "again",
+      "gloss_id": 36,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/again_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "against",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/against_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/against_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "against",
+      "gloss_id": 37,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/against_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "age",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/age_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/age_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "age",
+      "gloss_id": 38,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/age_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "agenda",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/agenda_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/agenda_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "agenda",
+      "gloss_id": 39,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/agenda_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "ago",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/ago_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/ago_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "ago",
+      "gloss_id": 40,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/ago_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "agree",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/agree_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/agree_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "agree",
+      "gloss_id": 41,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/agree_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "agreement",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/agreement_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/agreement_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "agreement",
+      "gloss_id": 42,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/agreement_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "ahead",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/ahead_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/ahead_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "ahead",
+      "gloss_id": 43,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/ahead_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "aid",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/aid_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/aid_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "aid",
+      "gloss_id": 44,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/aid_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "aim",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/aim_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/aim_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "aim",
+      "gloss_id": 45,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/aim_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "airplane",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/airplane_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/airplane_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "airplane",
+      "gloss_id": 46,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/airplane_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "alarm",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/alarm_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/alarm_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "alarm",
+      "gloss_id": 47,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/alarm_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "alcohol",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/alcohol_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/alcohol_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "alcohol",
+      "gloss_id": 48,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/alcohol_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "algebra",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/algebra_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/algebra_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "algebra",
+      "gloss_id": 49,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/algebra_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "all",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/all_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/all_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "all",
+      "gloss_id": 50,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/all_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "all day",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/all_day_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/all_day_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "all day",
+      "gloss_id": 51,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/all_day_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "allergy",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/allergy_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/allergy_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "allergy",
+      "gloss_id": 52,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/allergy_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "alligator",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/alligator_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/alligator_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "alligator",
+      "gloss_id": 53,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/alligator_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "allow",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/allow_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/allow_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "allow",
+      "gloss_id": 54,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/allow_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "almost",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/almost_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/almost_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "almost",
+      "gloss_id": 55,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/almost_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "alone",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/alone_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/alone_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "alone",
+      "gloss_id": 56,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/alone_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "alphabet",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/alphabet_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/alphabet_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "alphabet",
+      "gloss_id": 57,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/alphabet_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "already",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/already_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/already_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "already",
+      "gloss_id": 58,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/already_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "also",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/also_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/also_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "also",
+      "gloss_id": 59,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/also_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "always",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/always_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/always_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "always",
+      "gloss_id": 60,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/always_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "amazing",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/amazing_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/amazing_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "amazing",
+      "gloss_id": 61,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/amazing_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "america",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/america_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/america_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "america",
+      "gloss_id": 62,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/america_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "amputate",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/amputate_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/amputate_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "amputate",
+      "gloss_id": 63,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/amputate_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "analyze",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/analyze_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/analyze_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "analyze",
+      "gloss_id": 64,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/analyze_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "anatomy",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/anatomy_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/anatomy_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "anatomy",
+      "gloss_id": 65,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/anatomy_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "and",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/and_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/and_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "and",
+      "gloss_id": 66,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/and_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "angel",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/angel_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/angel_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "angel",
+      "gloss_id": 67,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/angel_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "angle",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/angle_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/angle_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "angle",
+      "gloss_id": 68,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/angle_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "angry",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/angry_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/angry_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "angry",
+      "gloss_id": 69,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/angry_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "animal",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/animal_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/animal_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "animal",
+      "gloss_id": 70,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/animal_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "anniversary",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/anniversary_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/anniversary_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "anniversary",
+      "gloss_id": 71,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/anniversary_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "announce",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/announce_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/announce_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "announce",
+      "gloss_id": 72,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/announce_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "annoy",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/annoy_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/annoy_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "annoy",
+      "gloss_id": 73,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/annoy_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "another",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/another_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/another_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "another",
+      "gloss_id": 74,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/another_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "answer",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/answer_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/answer_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "answer",
+      "gloss_id": 75,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/answer_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "any",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/any_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/any_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "any",
+      "gloss_id": 76,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/any_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "anyway",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/anyway_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/anyway_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "anyway",
+      "gloss_id": 77,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/anyway_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "apart",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/apart_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/apart_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "apart",
+      "gloss_id": 78,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/apart_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "apartment",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/apartment_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/apartment_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "apartment",
+      "gloss_id": 79,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/apartment_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "apostrophe",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/apostrophe_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/apostrophe_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "apostrophe",
+      "gloss_id": 80,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/apostrophe_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "appear",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/appear_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/appear_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "appear",
+      "gloss_id": 81,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/appear_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "appetite",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/appetite_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/appetite_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "appetite",
+      "gloss_id": 82,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/appetite_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "apple",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/apple_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/apple_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "apple",
+      "gloss_id": 83,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/apple_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "appointment",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/appointment_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/appointment_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "appointment",
+      "gloss_id": 84,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/appointment_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "appreciate",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/appreciate_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/appreciate_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "appreciate",
+      "gloss_id": 85,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/appreciate_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "approach",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/approach_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/approach_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "approach",
+      "gloss_id": 86,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/approach_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "appropriate",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/appropriate_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/appropriate_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "appropriate",
+      "gloss_id": 87,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/appropriate_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "approve",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/approve_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/approve_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "approve",
+      "gloss_id": 88,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/approve_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "april",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/april_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/april_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "april",
+      "gloss_id": 89,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/april_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "archery",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/archery_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/archery_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "archery",
+      "gloss_id": 90,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/archery_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "area",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/area_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/area_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "area",
+      "gloss_id": 91,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/area_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "argue",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/argue_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/argue_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "argue",
+      "gloss_id": 92,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/argue_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "arizona",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/arizona_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/arizona_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "arizona",
+      "gloss_id": 93,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/arizona_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "arm",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/arm_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/arm_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "arm",
+      "gloss_id": 94,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/arm_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "army",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/army_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/army_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "army",
+      "gloss_id": 95,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/army_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "around",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/around_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/around_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "around",
+      "gloss_id": 96,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/around_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "arrest",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/arrest_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/arrest_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "arrest",
+      "gloss_id": 97,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/arrest_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "arrive",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/arrive_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/arrive_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "arrive",
+      "gloss_id": 98,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/arrive_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "arrogant",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/arrogant_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/arrogant_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "arrogant",
+      "gloss_id": 99,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/arrogant_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "art",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/art_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/art_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "art",
+      "gloss_id": 100,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/art_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "article",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/article_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/article_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "article",
+      "gloss_id": 101,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/article_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "artist",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/artist_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/artist_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "artist",
+      "gloss_id": 102,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/artist_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "asia",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/asia_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/asia_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "asia",
+      "gloss_id": 103,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/asia_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "ask",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/ask_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/ask_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "ask",
+      "gloss_id": 104,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/ask_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "asl",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/asl_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/asl_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "asl",
+      "gloss_id": 105,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/asl_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "assist",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/assist_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/assist_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "assist",
+      "gloss_id": 106,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/assist_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "assistant",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/assistant_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/assistant_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "assistant",
+      "gloss_id": 107,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/assistant_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "assume",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/assume_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/assume_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "assume",
+      "gloss_id": 108,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/assume_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "attend",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/attend_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/attend_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "attend",
+      "gloss_id": 109,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/attend_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "attention",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/attention_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/attention_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "attention",
+      "gloss_id": 110,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/attention_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "attitude",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/attitude_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/attitude_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "attitude",
+      "gloss_id": 111,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/attitude_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "attorney",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/attorney_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/attorney_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "attorney",
+      "gloss_id": 112,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/attorney_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "attract",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/attract_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/attract_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "attract",
+      "gloss_id": 113,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/attract_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "auction",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/auction_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/auction_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "auction",
+      "gloss_id": 114,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/auction_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "audience",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/audience_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/audience_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "audience",
+      "gloss_id": 115,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/audience_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "audiologist",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/audiologist_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/audiologist_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "audiologist",
+      "gloss_id": 116,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/audiologist_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "audiology",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/audiology_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/audiology_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "audiology",
+      "gloss_id": 117,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/audiology_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "august",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/august_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/august_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "august",
+      "gloss_id": 118,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/august_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "aunt",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/aunt_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/aunt_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "aunt",
+      "gloss_id": 119,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/aunt_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "australia",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/australia_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/australia_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "australia",
+      "gloss_id": 120,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/australia_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "austria",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/austria_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/austria_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "austria",
+      "gloss_id": 121,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/austria_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "author",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/author_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/author_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "author",
+      "gloss_id": 122,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/author_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "authority",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/authority_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/authority_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "authority",
+      "gloss_id": 123,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/authority_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "autumn",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/autumn_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/autumn_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "autumn",
+      "gloss_id": 124,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/autumn_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  },
+  {
+    "gloss": "available",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/available_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/available_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "available",
+      "gloss_id": 125,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 128,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/available_v2_smplx.npy",
+      "denormalized": true,
+      "decode": {
+        "strategy": "sample",
+        "temperature": 0.9,
+        "repetition_penalty": 1.2,
+        "no_repeat_ngram_size": 2,
+        "top_k": 10
+      }
+    }
+  }
+]

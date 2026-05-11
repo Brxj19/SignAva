@@ -1,0 +1,45 @@
+{
+  "sample_index": 9,
+  "output_index": 9,
+  "dataset_split": "test",
+  "gloss": "accident",
+  "gloss_id": 10,
+  "original_path": "data/annotations/wlasl_pkls_cropFalse_defult_shape/00626.pkl",
+  "checkpoint_path": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+  "seq_len": 80,
+  "motion_dim": 182,
+  "token_len": 20,
+  "code_indices": [
+    110,
+    110,
+    51,
+    6,
+    117,
+    126,
+    126,
+    126,
+    31,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    14,
+    14
+  ],
+  "vq_loss": 0.3255766034126282,
+  "perplexity": 5.49346923828125,
+  "output_npy_paths": {
+    "original": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/reconstructions/test/npy/sample_009_gloss_accident_original.npy",
+    "reconstructed": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/reconstructions/test/npy/sample_009_gloss_accident_reconstructed.npy"
+  },
+  "output_video_paths": {
+    "original": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/reconstructions/test/original/sample_009_gloss_accident_original.mp4",
+    "reconstructed": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/reconstructions/test/reconstructed/sample_009_gloss_accident_reconstructed.mp4",
+    "contact_sheet": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/reconstructions/test/contact_sheets/sample_009_gloss_accident_comparison.jpg"
+  }
+}

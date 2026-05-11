@@ -1,0 +1,14 @@
+{
+  "input_text": "arrive",
+  "matched_gloss": "arrive",
+  "gloss_id": 11,
+  "checkpoint_path": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints/best_model.pth",
+  "output_shape": [
+    60,
+    182
+  ],
+  "denormalized": true,
+  "device": "cuda",
+  "demo_motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/generated/arrive_smplx.npy",
+  "demo_video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/videos/arrive_animation.mp4"
+}

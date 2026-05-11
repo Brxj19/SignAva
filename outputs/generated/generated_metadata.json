@@ -1,0 +1,12 @@
+{
+  "input_text": "arrive",
+  "matched_gloss": "arrive",
+  "gloss_id": 11,
+  "checkpoint_path": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints/best_model.pth",
+  "output_shape": [
+    60,
+    182
+  ],
+  "denormalized": true,
+  "device": "cuda"
+}

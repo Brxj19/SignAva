@@ -1,0 +1,14 @@
+{
+  "input_text": "again",
+  "matched_gloss": "again",
+  "gloss_id": 5,
+  "checkpoint_path": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints/best_model.pth",
+  "output_shape": [
+    60,
+    182
+  ],
+  "denormalized": true,
+  "device": "cuda",
+  "demo_motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/generated/again_smplx.npy",
+  "demo_video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/videos/again_animation.mp4"
+}

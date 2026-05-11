@@ -1,0 +1,18 @@
+{
+  "real_train": {
+    "average_unique_tokens": 6.226551226551226,
+    "average_transition_count": 7.3001443001443,
+    "average_repeated_token_ratio": 0.6886724386724387
+  },
+  "real_test": {
+    "average_unique_tokens": 6.387323943661972,
+    "average_transition_count": 7.697183098591549,
+    "average_repeated_token_ratio": 0.6806338028169014
+  },
+  "generated": {
+    "average_unique_tokens": 1.5887096774193548,
+    "average_transition_count": 0.7741935483870968,
+    "average_repeated_token_ratio": 0.9205645161290322
+  },
+  "warning": "Token generator is collapsing during inference."
+}

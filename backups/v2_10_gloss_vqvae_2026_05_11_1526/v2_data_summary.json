@@ -1,0 +1,49 @@
+{
+  "vocab_size": 12,
+  "num_glosses": 10,
+  "train_samples": 90,
+  "val_samples": 23,
+  "test_samples": 20,
+  "motion_dimension": 182,
+  "seq_len": 80,
+  "selection_mode": "top_count",
+  "sequence_mode": "resample",
+  "min_seq_len": 20,
+  "max_seq_len": null,
+  "canonicalize_camera": true,
+  "fix_betas": true,
+  "total_samples": 134,
+  "kept_samples": 133,
+  "skipped_too_short": 1,
+  "skipped_too_long": 0,
+  "per_gloss_sample_counts": {
+    "about": 11,
+    "accident": 16,
+    "africa": 15,
+    "again": 12,
+    "ago": 12,
+    "all": 15,
+    "always": 12,
+    "approve": 15,
+    "argue": 13,
+    "arrive": 12
+  },
+  "selected_glosses": [
+    "about",
+    "accident",
+    "africa",
+    "again",
+    "ago",
+    "all",
+    "always",
+    "approve",
+    "argue",
+    "arrive"
+  ],
+  "normalization_stats": "/home/image/Desktop/SignAvatar_Generative_Project/data/normalization_stats.json",
+  "ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  }
+}

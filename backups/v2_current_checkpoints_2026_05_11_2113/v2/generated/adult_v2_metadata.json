@@ -1,0 +1,21 @@
+{
+  "gloss": "adult",
+  "gloss_id": 27,
+  "seq_len": 80,
+  "motion_dim": 182,
+  "token_len": 20,
+  "codebook_size": 128,
+  "checkpoints": {
+    "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+    "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+  },
+  "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/adult_v2_smplx.npy",
+  "denormalized": true,
+  "decode": {
+    "strategy": "sample",
+    "temperature": 0.9,
+    "repetition_penalty": 1.2,
+    "no_repeat_ngram_size": 2,
+    "top_k": 10
+  }
+}

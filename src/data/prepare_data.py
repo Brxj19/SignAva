@@ -8,7 +8,7 @@ import numpy as np
 from tqdm import tqdm
 
 from src.config import DATA_DIR, PROCESSED_DIR
-from src.data.dataset import CPU_Unpickler, adjust_sequence_length, extract_smplx_sequence
+from src.data.dataset import CPU_Unpickler, adjust_sequence_length, canonicalize_smplx_sequence, extract_smplx_sequence
 
 
 class PrepareDataError(RuntimeError):
@@ -67,12 +67,12 @@ def _build_vocab(glosses: list[str]) -> dict[str, int]:
 
 
 def _select_glosses(gloss_to_paths: dict[str, list[str]], max_glosses: int | None, selection_mode: str) -> list[str]:
-    if selection_mode == "alphabetical":
+    if selection_mode in {"alphabetical", "all"}:
         glosses = sorted(gloss_to_paths)
     elif selection_mode == "top_count":
         glosses = sorted(gloss_to_paths, key=lambda gloss: (-len(gloss_to_paths[gloss]), gloss))
     else:
-        raise ValueError("selection_mode must be one of: alphabetical, top_count")
+        raise ValueError("selection_mode must be one of: alphabetical, top_count, all")
 
     if max_glosses is not None:
         glosses = glosses[:max_glosses]
@@ -110,13 +110,21 @@ def prepare_data(
     max_samples_per_gloss: int | None = None,
     selection_mode: str = "alphabetical",
     sequence_mode: str = "pad_trim",
+    min_seq_len: int = 1,
+    max_seq_len: int | None = None,
+    canonicalize_camera: bool = False,
+    fix_betas: bool = False,
 ) -> dict[str, Any]:
     if abs(train_ratio + val_ratio + test_ratio - 1.0) > 1e-6:
         raise ValueError("train_ratio, val_ratio and test_ratio must sum to 1.0")
-    if selection_mode not in {"alphabetical", "top_count"}:
-        raise ValueError("selection_mode must be one of: alphabetical, top_count")
+    if selection_mode not in {"alphabetical", "top_count", "all"}:
+        raise ValueError("selection_mode must be one of: alphabetical, top_count, all")
     if sequence_mode not in {"pad_trim", "resample"}:
         raise ValueError("sequence_mode must be one of: pad_trim, resample")
+    if min_seq_len < 1:
+        raise ValueError("min_seq_len must be >= 1")
+    if max_seq_len is not None and max_seq_len < min_seq_len:
+        raise ValueError("max_seq_len must be >= min_seq_len")
 
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
     index_path = PROCESSED_DIR / "index.json"
@@ -131,6 +139,27 @@ def prepare_data(
         selection_mode=selection_mode,
         rng=random.Random(seed),
     )
+    filtered_gloss_to_paths: dict[str, list[str]] = {}
+    skipped_too_short = 0
+    skipped_too_long = 0
+    total_samples = 0
+    for gloss, paths in tqdm(gloss_to_paths.items(), desc="Filtering sequences", unit="gloss"):
+        kept_paths: list[str] = []
+        for path_str in paths:
+            total_samples += 1
+            sequence = extract_smplx_sequence(load_pickle(Path(path_str)))
+            length = sequence.shape[0]
+            if length < min_seq_len:
+                skipped_too_short += 1
+                continue
+            if max_seq_len is not None and length > max_seq_len:
+                skipped_too_long += 1
+                continue
+            kept_paths.append(path_str)
+        if kept_paths:
+            filtered_gloss_to_paths[gloss] = kept_paths
+
+    gloss_to_paths = filtered_gloss_to_paths
     vocab = _build_vocab(list(gloss_to_paths.keys()))
 
     rng = random.Random(seed)
@@ -153,6 +182,11 @@ def prepare_data(
         path = Path(path_str)
         data = load_pickle(path)
         sequence = extract_smplx_sequence(data)
+        sequence = canonicalize_smplx_sequence(
+            sequence,
+            canonicalize_camera=canonicalize_camera,
+            fix_betas=fix_betas,
+        )
         sequence = adjust_sequence_length(sequence, seq_len, sequence_mode)
         all_train_frames.append(sequence)
 
@@ -171,6 +205,15 @@ def prepare_data(
         "seq_len": seq_len,
         "selection_mode": selection_mode,
         "sequence_mode": sequence_mode,
+        "min_seq_len": min_seq_len,
+        "max_seq_len": max_seq_len,
+        "canonicalize_camera": canonicalize_camera,
+        "fix_betas": fix_betas,
+        "total_samples": total_samples,
+        "kept_samples": sum(len(paths) for paths in gloss_to_paths.values()),
+        "skipped_too_short": skipped_too_short,
+        "skipped_too_long": skipped_too_long,
+        "per_gloss_sample_counts": {gloss: len(paths) for gloss, paths in sorted(gloss_to_paths.items())},
         "selected_glosses": sorted(gloss_to_paths),
         "normalization_stats": str(DATA_DIR / "normalization_stats.json"),
     }
@@ -179,6 +222,16 @@ def prepare_data(
     _save_json(DATA_DIR / "splits.json", splits)
     _save_json(DATA_DIR / "normalization_stats.json", {"mean": mean.tolist(), "std": std.tolist()})
     _save_json(PROCESSED_DIR / "prepare_data_summary.json", {**metadata, "ratios": {"train": train_ratio, "val": val_ratio, "test": test_ratio}})
+    if (
+        seq_len == 80
+        or sequence_mode == "resample"
+        or min_seq_len != 1
+        or max_seq_len is not None
+        or selection_mode in {"top_count", "all"}
+        or canonicalize_camera
+        or fix_betas
+    ):
+        _save_json(DATA_DIR.parent / "outputs" / "v2_data_summary.json", {**metadata, "ratios": {"train": train_ratio, "val": val_ratio, "test": test_ratio}})
 
     print(f"Vocab size: {metadata['vocab_size']}")
     print(f"Number of glosses: {metadata['num_glosses']}")
@@ -189,6 +242,11 @@ def prepare_data(
     print(f"Sequence length: {metadata['seq_len']}")
     print(f"Selection mode: {metadata['selection_mode']}")
     print(f"Sequence mode: {metadata['sequence_mode']}")
+    print(f"Min sequence length: {metadata['min_seq_len']}")
+    print(f"Skipped too short: {metadata['skipped_too_short']}")
+    print(f"Skipped too long: {metadata['skipped_too_long']}")
+    print(f"Canonicalize camera: {metadata['canonicalize_camera']}")
+    print(f"Fix betas: {metadata['fix_betas']}")
     print(f"Selected glosses: {', '.join(metadata['selected_glosses'])}")
     print(f"Saved normalization stats to {DATA_DIR / 'normalization_stats.json'}")
 
@@ -204,8 +262,12 @@ if __name__ == "__main__":
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--max-glosses", type=int, default=None)
     parser.add_argument("--max-samples-per-gloss", type=int, default=None)
-    parser.add_argument("--selection-mode", choices=["alphabetical", "top_count"], default="alphabetical")
+    parser.add_argument("--selection-mode", choices=["alphabetical", "top_count", "all"], default="alphabetical")
     parser.add_argument("--sequence-mode", choices=["pad_trim", "resample"], default="pad_trim")
+    parser.add_argument("--min-seq-len", type=int, default=1)
+    parser.add_argument("--max-seq-len", type=int, default=None)
+    parser.add_argument("--canonicalize-camera", action="store_true")
+    parser.add_argument("--fix-betas", action="store_true")
     args = parser.parse_args()
 
     prepare_data(
@@ -218,4 +280,8 @@ if __name__ == "__main__":
         max_samples_per_gloss=args.max_samples_per_gloss,
         selection_mode=args.selection_mode,
         sequence_mode=args.sequence_mode,
+        min_seq_len=args.min_seq_len,
+        max_seq_len=args.max_seq_len,
+        canonicalize_camera=args.canonicalize_camera,
+        fix_betas=args.fix_betas,
     )

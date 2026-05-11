@@ -1,0 +1,92 @@
+[
+  {
+    "gloss": "about",
+    "safe_gloss": "about",
+    "generated_motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/generated/about_smplx.npy",
+    "metadata_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/generated/about_metadata.json",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/videos/about_animation.mp4",
+    "status": "done",
+    "error": null
+  },
+  {
+    "gloss": "accident",
+    "safe_gloss": "accident",
+    "generated_motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/generated/accident_smplx.npy",
+    "metadata_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/generated/accident_metadata.json",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/videos/accident_animation.mp4",
+    "status": "done",
+    "error": null
+  },
+  {
+    "gloss": "africa",
+    "safe_gloss": "africa",
+    "generated_motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/generated/africa_smplx.npy",
+    "metadata_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/generated/africa_metadata.json",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/videos/africa_animation.mp4",
+    "status": "done",
+    "error": null
+  },
+  {
+    "gloss": "again",
+    "safe_gloss": "again",
+    "generated_motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/generated/again_smplx.npy",
+    "metadata_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/generated/again_metadata.json",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/videos/again_animation.mp4",
+    "status": "done",
+    "error": null
+  },
+  {
+    "gloss": "ago",
+    "safe_gloss": "ago",
+    "generated_motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/generated/ago_smplx.npy",
+    "metadata_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/generated/ago_metadata.json",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/videos/ago_animation.mp4",
+    "status": "done",
+    "error": null
+  },
+  {
+    "gloss": "all",
+    "safe_gloss": "all",
+    "generated_motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/generated/all_smplx.npy",
+    "metadata_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/generated/all_metadata.json",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/videos/all_animation.mp4",
+    "status": "done",
+    "error": null
+  },
+  {
+    "gloss": "always",
+    "safe_gloss": "always",
+    "generated_motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/generated/always_smplx.npy",
+    "metadata_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/generated/always_metadata.json",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/videos/always_animation.mp4",
+    "status": "done",
+    "error": null
+  },
+  {
+    "gloss": "approve",
+    "safe_gloss": "approve",
+    "generated_motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/generated/approve_smplx.npy",
+    "metadata_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/generated/approve_metadata.json",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/videos/approve_animation.mp4",
+    "status": "done",
+    "error": null
+  },
+  {
+    "gloss": "argue",
+    "safe_gloss": "argue",
+    "generated_motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/generated/argue_smplx.npy",
+    "metadata_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/generated/argue_metadata.json",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/videos/argue_animation.mp4",
+    "status": "done",
+    "error": null
+  },
+  {
+    "gloss": "arrive",
+    "safe_gloss": "arrive",
+    "generated_motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/generated/arrive_smplx.npy",
+    "metadata_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/generated/arrive_metadata.json",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/videos/arrive_animation.mp4",
+    "status": "done",
+    "error": null
+  }
+]

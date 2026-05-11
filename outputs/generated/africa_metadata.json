@@ -1,0 +1,14 @@
+{
+  "input_text": "africa",
+  "matched_gloss": "africa",
+  "gloss_id": 4,
+  "checkpoint_path": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints/best_model.pth",
+  "output_shape": [
+    60,
+    182
+  ],
+  "denormalized": true,
+  "device": "cuda",
+  "demo_motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/generated/africa_smplx.npy",
+  "demo_video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/videos/africa_animation.mp4"
+}

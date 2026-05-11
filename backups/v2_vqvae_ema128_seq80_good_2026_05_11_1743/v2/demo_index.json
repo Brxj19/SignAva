@@ -1,0 +1,22 @@
+[
+  {
+    "gloss": "about",
+    "motion_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/about_v2_smplx.npy",
+    "video_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/about_v2_animation.mp4",
+    "status": "done",
+    "metadata": {
+      "gloss": "about",
+      "gloss_id": 2,
+      "seq_len": 80,
+      "motion_dim": 182,
+      "token_len": 20,
+      "codebook_size": 512,
+      "checkpoints": {
+        "vqvae": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+        "token_generator": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/token_generator_best.pth"
+      },
+      "output_path": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/generated/about_v2_smplx.npy",
+      "denormalized": true
+    }
+  }
+]

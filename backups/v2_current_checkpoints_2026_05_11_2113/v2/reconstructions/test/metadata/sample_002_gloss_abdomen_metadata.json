@@ -1,0 +1,45 @@
+{
+  "sample_index": 2,
+  "output_index": 2,
+  "dataset_split": "test",
+  "gloss": "abdomen",
+  "gloss_id": 4,
+  "original_path": "data/annotations/wlasl_pkls_cropFalse_defult_shape/00337.pkl",
+  "checkpoint_path": "/home/image/Desktop/SignAvatar_Generative_Project/checkpoints_v2/vqvae_best.pth",
+  "seq_len": 80,
+  "motion_dim": 182,
+  "token_len": 20,
+  "code_indices": [
+    74,
+    74,
+    74,
+    74,
+    74,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    5
+  ],
+  "vq_loss": 0.38216105103492737,
+  "perplexity": 2.1086180210113525,
+  "output_npy_paths": {
+    "original": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/reconstructions/test/npy/sample_002_gloss_abdomen_original.npy",
+    "reconstructed": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/reconstructions/test/npy/sample_002_gloss_abdomen_reconstructed.npy"
+  },
+  "output_video_paths": {
+    "original": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/reconstructions/test/original/sample_002_gloss_abdomen_original.mp4",
+    "reconstructed": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/reconstructions/test/reconstructed/sample_002_gloss_abdomen_reconstructed.mp4",
+    "contact_sheet": "/home/image/Desktop/SignAvatar_Generative_Project/outputs/v2/videos/reconstructions/test/contact_sheets/sample_002_gloss_abdomen_comparison.jpg"
+  }
+}
