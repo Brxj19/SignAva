@@ -1,0 +1,7 @@
+numpy
+opencv-python
+pyrender
+smplx
+torch
+tqdm
+trimesh

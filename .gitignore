@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local environment files
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Project datasets and generated assets
+data/raw/
+data/annotations/
+data/processed/
+data/cache/
+data/*.pkl
+data/*.npy
+data/*.npz
+data/*.zip
+
+# Model checkpoints and training outputs
+checkpoints/
+backups/
+outputs/
+runs/
+wandb/
+mlruns/
+tensorboard/
+
+# Large model and motion files
+human_models/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pkl
+*.npy
+*.npz
+
+# Generated media
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.gif
+
+# Local Codex/session files
+.codex/
